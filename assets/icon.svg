@@ -1,0 +1,72 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Arctic Downloader — Tall Central Iceberg Peaks</title>
+  <desc id="desc">Flat, minimal arctic-blue icon with a large iceberg featuring tall central peaks and smaller side peaks. Small download arrow placed lower.</desc>
+
+  <!-- Colors -->
+  <!-- bg: #0EA5E9, water: #38BDF8, ice light: #E0F2FE, ice mid: #CFEFFF, ice under: #7DD3FC, fg: #0C4A6E -->
+
+  <defs>
+    <clipPath id="round">
+      <rect x="0" y="0" width="512" height="512" rx="104" ry="104"></rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <!-- Background -->
+    <rect x="0" y="0" width="512" height="512" fill="#0EA5E9"></rect>
+
+    <!-- Waterline -->
+    <rect x="0" y="296" width="512" height="216" fill="#38BDF8" opacity="0.45"></rect>
+
+    <!-- === ICEBERG (with tall center peaks) === -->
+    <!-- Main silhouette -->
+    <path d="
+      M48 320
+      L100 220
+      L140 250
+      L180 200
+      L220 150
+      L256 100
+      L292 150
+      L332 200
+      L372 180
+      L420 260
+      L456 320 Z" fill="#CFEFFF"></path>
+
+    <!-- Highlight facet -->
+    <path d="
+      M92 320
+      L140 250
+      L176 270
+      L220 210
+      L256 140
+      L292 210
+      L324 248
+      L360 276
+      L408 320 Z" fill="#E0F2FE"></path>
+
+    <!-- Underwater section -->
+    <path d="M84 320 L256 504 L428 320 Z" fill="#7DD3FC" opacity="0.9"></path>
+
+    <!-- Subtle waterline seam -->
+    <rect x="70" y="316" width="372" height="6" rx="3" fill="#7DD3FC" opacity="0.55"></rect>
+
+    <!-- === DOWNLOAD ICON (smaller + lower) === -->
+    <path d="M256 240
+             a14 14 0 0 1 14 14
+             v80
+             l22 -22
+             a12 12 0 0 1 17 17
+             l-46 46
+             a12 12 0 0 1 -17 0
+             l-46 -46
+             a12 12 0 0 1 17 -17
+             l22 22
+             V254
+             a14 14 0 0 1 14 -14z" fill="#0C4A6E"></path>
+
+    <!-- Tray -->
+    <rect x="194" y="364" width="124" height="22" rx="11" fill="#0C4A6E"></rect>
+    <rect x="206" y="369" width="100" height="3" rx="1.5" fill="#E0F2FE" opacity="0.55"></rect>
+  </g>
+</svg>
