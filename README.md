@@ -75,8 +75,8 @@ Inside the **ComfyUI** tab, you can:
 
 1. Download the latest `Arctic-ComfyUI-Helper.exe` from this repo's **Releases** page.
 2. Run the app. This is a **standalone app** (no installer required).
-3. In **Models** / **LoRAs**, select your existing ComfyUI folder to download assets.
-4. In **ComfyUI** tab, use **Install New** (or **Manage Existing**) if you want the app to install/manage ComfyUI itself.
+3. In **ComfyUI** tab, use **Install New** (or **Manage Existing**) if you want the app to install/manage ComfyUI itself.
+4. In **Models** / **LoRAs**, select your existing ComfyUI folder to download assets.
 5. Optional advanced logging: launch from terminal with  
    `.\Arctic-ComfyUI-Helper.exe --nerdstats`
 
