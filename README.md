@@ -82,6 +82,12 @@ That is it. Pick your setup, click, and the app handles the rest.
 
 ---
 
+## 🖼️ Demo Preview
+
+![Arctic Downloader Demo](assets/demo.png)
+
+---
+
 ## 🔄 Auto-Updates
 
 On startup, the app checks:
