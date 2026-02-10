@@ -122,8 +122,20 @@ Open an issue in this repository with:
 **Burce Boran**  
 Asset Supervisor / VFX Artist - Arctic Latent
 
-- YouTube: https://www.youtube.com/@ArcticLatent
-- Patreon: https://www.patreon.com/cw/ArcticLatent
-- Hugging Face: https://huggingface.co/arcticlatent
-- Vimeo: https://vimeo.com/1044521891
-- GitHub: https://github.com/ArcticLatent
+<p>
+  <a href="https://www.youtube.com/@ArcticLatent">
+    <img alt="YouTube" src="https://img.shields.io/badge/YouTube-@ArcticLatent-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+  </a>
+  <a href="https://www.patreon.com/cw/ArcticLatent">
+    <img alt="Patreon" src="https://img.shields.io/badge/Patreon-Arctic%20Latent-000000?style=for-the-badge&logo=patreon&logoColor=white" />
+  </a>
+  <a href="https://huggingface.co/arcticlatent">
+    <img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-arcticlatent-FFCC4D?style=for-the-badge" />
+  </a>
+  <a href="https://vimeo.com/1044521891">
+    <img alt="Vimeo" src="https://img.shields.io/badge/Vimeo-Arctic%20Latent-1AB7EA?style=for-the-badge&logo=vimeo&logoColor=white" />
+  </a>
+  <a href="https://github.com/ArcticLatent">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-ArcticLatent-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
