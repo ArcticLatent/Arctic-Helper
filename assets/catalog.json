@@ -1,0 +1,1450 @@
+{
+  "catalog_version": 1,
+  "models": [
+    {
+      "id": "wan-2-2",
+      "display_name": "WAN 2.2",
+      "family": "wan",
+      "variants": [
+        {
+          "id": "wan-14b-fp8",
+          "tier": "tier_a",
+          "model_size": "14B",
+          "quantization": "FP8",
+          "note": "i2v + t2v",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/Wan2_2-I2V-A14B-HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/Wan2_2-I2V-A14B-HIGH_fp8_e4m3fn_scaled_KJ.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/Wan2_2-I2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/Wan2_2-I2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/Wan2_2-T2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/Wan2_2-T2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/Wan2_2-T2V-A14B_HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/Wan2_2-T2V-A14B_HIGH_fp8_e4m3fn_scaled_KJ.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "wan-14b-fp16",
+          "tier": "tier_s",
+          "model_size": "14B",
+          "quantization": "FP16",
+          "note": "i2v + t2v",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/wan2.2_i2v_high_noise_14B_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_i2v_high_noise_14B_fp16.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/wan2.2_i2v_low_noise_14B_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_i2v_low_noise_14B_fp16.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/wan2.2_t2v_high_noise_14B_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_t2v_high_noise_14B_fp16.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/wan2.2_t2v_low_noise_14B_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_t2v_low_noise_14B_fp16.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "wan-14b-q4",
+          "tier": "tier_c",
+          "model_size": "14B",
+          "quantization": "Q4",
+          "note": "i2v + t2v",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/gguf/Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "unet",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/gguf/Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "unet",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/gguf/Wan2.2-T2V-A14B-HighNoise-Q4_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "unet",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-T2V-A14B-HighNoise-Q4_K_M.gguf"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/gguf/Wan2.2-T2V-A14B-LowNoise-Q4_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "unet",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-T2V-A14B-LowNoise-Q4_K_M.gguf"
+            }
+          ]
+        },
+        {
+          "id": "wan-14b-q3",
+          "tier": "tier_b",
+          "model_size": "14B",
+          "quantization": "Q3",
+          "note": "i2v + t2v",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/gguf/Wan2.2-I2V-A14B-HighNoise-Q8_0.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "unet",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-I2V-A14B-HighNoise-Q8_0.gguf"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/gguf/Wan2.2-I2V-A14B-LowNoise-Q8_0.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "unet",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-I2V-A14B-LowNoise-Q8_0.gguf"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/gguf/Wan2.2-T2V-A14B-HighNoise-Q8_0.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "unet",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-T2V-A14B-HighNoise-Q8_0.gguf"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "unet_14b/gguf/Wan2.2-T2V-A14B-LowNoise-Q8_0.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "unet",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-T2V-A14B-LowNoise-Q8_0.gguf"
+            }
+          ]
+        }
+      ],
+      "always": [
+        {
+          "id": "vae",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "vae/wan_2.1_vae.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "vae",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/vae/wan_2.1_vae.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "loras",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "lora/wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "loras",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "lora/wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "loras",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "lora/wan2.2_t2v_A14b_high_noise_lora_rank64_lightx2v_4step_1217.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "loras",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/wan2.2_t2v_A14b_high_noise_lora_rank64_lightx2v_4step_1217.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "lora/wan2.2_t2v_A14b_low_noise_lora_rank64_lightx2v_4step_1217.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "loras",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/wan2.2_t2v_A14b_low_noise_lora_rank64_lightx2v_4step_1217.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "lora/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "loras",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "lora/SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "loras",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "clip",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "clip/umt5_xxl_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "min_ram_tier": "tier_a",
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/clip/umt5_xxl_fp16.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "min_ram_tier": "tier_b",
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "clip/gguf/umt5-xxl-encoder-Q5_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "min_ram_tier": "tier_c",
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/clip/gguf/umt5-xxl-encoder-Q5_K_M.gguf"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "min_ram_tier": "tier_a",
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flux-1-dev",
+      "display_name": "FLUX 1 DEV",
+      "family": "flux1",
+      "variants": [
+        {
+          "id": "flux1-dev-fp16",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP16",
+          "note": "Dev",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/dev/flux1-dev-fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/flux1-dev-fp16.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-dev-fp8",
+          "tier": "tier_a",
+          "model_size": "12B",
+          "quantization": "FP8",
+          "note": "Dev",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/dev/flux1-dev-fp8.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/flux1-dev-fp8.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-dev-q5",
+          "tier": "tier_b",
+          "model_size": "12B",
+          "quantization": "Q5_K",
+          "note": "Dev",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/dev/gguf/flux1-dev-Q5_K_S.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/gguf/flux1-dev-Q5_K_S.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-dev-q34",
+          "tier": "tier_c",
+          "model_size": "12B",
+          "quantization": "Q3_Q4",
+          "note": "Dev",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/dev/gguf/flux1-dev-Q3_K_S.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/gguf/flux1-dev-Q3_K_S.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-dev-fp8",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP8",
+          "note": "Dev",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/dev/flux_dev_fp8_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/flux_dev_fp8_scaled.safetensors"
+            }
+          ]
+        }
+      ],
+      "always": [
+        {
+          "id": "vae",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "vae/ae.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "vae",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/vae/ae.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "clip_vision",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "clip_vision/sigclip_vision_patch14_384.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "clip_vision",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip_vision/sigclip_vision_patch14_384.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "pulid",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "pulid/pulid_flux_v0.9.1.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "pulid",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/pulid/pulid_flux_v0.9.1.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "style_models",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "style_models/flux1-redux-dev.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "style_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/style_models/flux1-redux-dev.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "upscale_models",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/misc@main",
+              "path": "upscale_models/4x-UltraSharp.pth",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "upscale_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/misc/resolve/main/upscale_models/4x-UltraSharp.pth"
+            },
+            {
+              "repo": "hf://arcticlatent/misc@main",
+              "path": "upscale_models/RealESRGAN_x2plus.pth",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "upscale_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/misc/resolve/main/upscale_models/RealESRGAN_x2plus.pth"
+            }
+          ]
+        },
+        {
+          "id": "adetailer",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/misc@main",
+              "path": "adetailer/sams/sam_vit_b_01ec64.pth",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "sams",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/misc/resolve/main/adetailer/sams/sam_vit_b_01ec64.pth"
+            },
+            {
+              "repo": "hf://arcticlatent/misc@main",
+              "path": "adetailer/Ultralytics/bbox/face_yolov8m.pt",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "ultralytics/bbox",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/misc/resolve/main/adetailer/Ultralytics/bbox/face_yolov8m.pt"
+            },
+            {
+              "repo": "hf://arcticlatent/misc@main",
+              "path": "adetailer/Ultralytics/bbox/hand_yolov8s.pt",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "ultralytics/bbox",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/misc/resolve/main/adetailer/Ultralytics/bbox/hand_yolov8s.pt"
+            }
+          ]
+        },
+        {
+          "id": "face_restore",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/misc@main",
+              "path": "faceRestore_models/GFPGANv1.4.pth",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "facerestore_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/misc/resolve/main/faceRestore_models/GFPGANv1.4.pth"
+            },
+            {
+              "repo": "hf://arcticlatent/misc@main",
+              "path": "faceRestore_models/codeformer.pth",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "facerestore_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/misc/blob/main/faceRestore_models/codeformer.pth"
+            }
+          ]
+        },
+        {
+          "id": "loras",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "loras/schnell_lora.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "loras",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/loras/schnell_lora.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "controlnet",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "controlnets/flux_shakker_labs_union_pro-fp8.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "controlnet",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/controlnets/flux_shakker_labs_union_pro-fp8.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "clip",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "clip/clip_l.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "clip",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/clip_l.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "clip/t5xxl_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "clip",
+              "license_url": null,
+              "min_ram_tier": "tier_a",
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp16.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "clip/t5xxl_fp8_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "clip",
+              "license_url": null,
+              "min_ram_tier": "tier_b",
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp8_scaled.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "clip/gguf/t5xxl_Q5_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "clip",
+              "license_url": null,
+              "min_ram_tier": "tier_c",
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/gguf/t5xxl_Q5_K_M.gguf"
+            },
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "clip/t5xxl_fp8_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "clip",
+              "license_url": null,
+              "min_ram_tier": "tier_a",
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp8_scaled.safetensors"
+            }
+          ]
+        }
+      ],
+      "ram_tier_thresholds": {
+        "tier_a_min_gb": 30.0,
+        "tier_b_min_gb": 14.0
+      }
+    },
+    {
+      "id": "flux-1-krea",
+      "display_name": "FLUX 1 KREA",
+      "family": "flux1",
+      "variants": [
+        {
+          "id": "flux1-krea-fp16",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP16",
+          "note": "KREA",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/krea/flux1-krea-dev.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/flux1-krea-dev.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-krea-fp8",
+          "tier": "tier_a",
+          "model_size": "12B",
+          "quantization": "FP8",
+          "note": "KREA",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/krea/flux1-krea-dev_fp8_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/flux1-krea-dev_fp8_scaled.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-krea-q6",
+          "tier": "tier_b",
+          "model_size": "12B",
+          "quantization": "Q6_K",
+          "note": "KREA",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/krea/gguf/flux1-krea-dev-Q6_K.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/gguf/flux1-krea-dev-Q6_K.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-krea-q3",
+          "tier": "tier_c",
+          "model_size": "12B",
+          "quantization": "Q3_K_M",
+          "note": "KREA",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/krea/gguf/flux1-krea-dev-Q3_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/gguf/flux1-krea-dev-Q3_K_M.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-krea-fp8",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP8",
+          "note": "KREA",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/krea/flux1-krea-dev_fp8_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/flux1-krea-dev_fp8_scaled.safetensors"
+            }
+          ]
+        }
+      ],
+      "ram_tier_thresholds": {
+        "tier_a_min_gb": 30.0,
+        "tier_b_min_gb": 14.0
+      }
+    },
+    {
+      "id": "flux-1-schnell",
+      "display_name": "FLUX 1 SCHNELL",
+      "family": "flux1",
+      "variants": [
+        {
+          "id": "flux1-schnell-fp16",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP16",
+          "note": "SCHNELL",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/schnell/flux1-schnell-fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/flux1-schnell-fp16.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-schnell-fp8",
+          "tier": "tier_a",
+          "model_size": "12B",
+          "quantization": "FP8",
+          "note": "SCHNELL",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/schnell/flux1-schnell-fp8.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/flux1-schnell-fp8.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-schnell-q5",
+          "tier": "tier_b",
+          "model_size": "12B",
+          "quantization": "Q5_K_S",
+          "note": "SCHNELL",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/schnell/ggug/flux1-schnell-Q5_K_S.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/ggug/flux1-schnell-Q5_K_S.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-schnell-q3",
+          "tier": "tier_c",
+          "model_size": "12B",
+          "quantization": "Q3_K_S",
+          "note": "SCHNELL",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/schnell/ggug/flux1-schnell-Q3_K_S.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/ggug/flux1-schnell-Q3_K_S.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-schnell-fp8",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP8",
+          "note": "SCHNELL",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/schnell/flux1-schnell-fp8.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/flux1-schnell-fp8.safetensors"
+            }
+          ]
+        }
+      ],
+      "ram_tier_thresholds": {
+        "tier_a_min_gb": 30.0,
+        "tier_b_min_gb": 14.0
+      }
+    },
+    {
+      "id": "flux-1-fill",
+      "display_name": "FLUX 1 FILL",
+      "family": "flux1",
+      "variants": [
+        {
+          "id": "flux1-fill-fp16",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP16",
+          "note": "Inpainting/outpainting models for editing or expanding images using text + mask",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/fill/flux1-fill-dev-fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/flux1-fill-dev-fp16.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-fill-fp8",
+          "tier": "tier_a",
+          "model_size": "12B",
+          "quantization": "FP8",
+          "note": "Inpainting/outpainting models for editing or expanding images using text + mask",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/fill/flux1-fill-dev-fp8.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/flux1-fill-dev-fp8.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-fill-q5",
+          "tier": "tier_b",
+          "model_size": "12B",
+          "quantization": "Q5_K",
+          "note": "Inpainting/outpainting models for editing or expanding images using text + mask",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/fill/gguf/flux1-fill-dev-Q5_K_S.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/gguf/flux1-fill-dev-Q5_K_S.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-fill-q34",
+          "tier": "tier_c",
+          "model_size": "12B",
+          "quantization": "Q3_Q4",
+          "note": "Inpainting/outpainting models for editing or expanding images using text + mask",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/fill/gguf/flux1-fill-dev-Q3_K_S.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/gguf/flux1-fill-dev-Q3_K_S.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-fill-fp8",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP16",
+          "note": "Inpainting/outpainting models for editing or expanding images using text + mask",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/fill/flux1-fill-dev-fp8.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/flux1-fill-dev-fp8.safetensors"
+            }
+          ]
+        }
+      ],
+      "ram_tier_thresholds": {
+        "tier_a_min_gb": 30.0,
+        "tier_b_min_gb": 14.0
+      }
+    },
+    {
+      "id": "flux-1-canny",
+      "display_name": "FLUX 1 CANNY",
+      "family": "flux1",
+      "variants": [
+        {
+          "id": "flux1-canny-fp16",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP16",
+          "note": "Edge-guided generation using a canny map + text prompt.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/canny/flux1-canny-dev-fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/flux1-canny-dev-fp16.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-canny-fp8",
+          "tier": "tier_a",
+          "model_size": "12B",
+          "quantization": "FP8",
+          "note": "Edge-guided generation using a canny map + text prompt.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/canny/flux1-canny-dev-fp8.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/flux1-canny-dev-fp8.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-canny-q5",
+          "tier": "tier_b",
+          "model_size": "12B",
+          "quantization": "Q5_K",
+          "note": "Edge-guided generation using a canny map + text prompt.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/canny/gguf/flux1-canny-dev-Q5_0.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/gguf/flux1-canny-dev-Q5_0.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-canny-q34",
+          "tier": "tier_c",
+          "model_size": "12B",
+          "quantization": "Q3_Q4",
+          "note": "Edge-guided generation using a canny map + text prompt.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/canny/gguf/flux1-canny-dev-Q4_0.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/gguf/flux1-canny-dev-Q4_0.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-canny-fp8",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP16",
+          "note": "Edge-guided generation using a canny map + text prompt.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/canny/flux1-canny-dev-fp8.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/flux1-canny-dev-fp8.safetensors"
+            }
+          ]
+        }
+      ],
+      "ram_tier_thresholds": {
+        "tier_a_min_gb": 30.0,
+        "tier_b_min_gb": 14.0
+      }
+    },
+    {
+      "id": "flux-1-depth",
+      "display_name": "FLUX 1 DEPTH",
+      "family": "flux1",
+      "variants": [
+        {
+          "id": "flux1-depth-fp16",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP16",
+          "note": "Depth-guided generation using a depth map + text prompt.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/depth/flux1-depth-dev-fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/flux1-depth-dev-fp16.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-depth-fp8",
+          "tier": "tier_a",
+          "model_size": "12B",
+          "quantization": "FP8",
+          "note": "Depth-guided generation using a depth map + text prompt.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/depth/flux1-depth-dev-fp8.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/flux1-depth-dev-fp8.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-depth-q5",
+          "tier": "tier_b",
+          "model_size": "12B",
+          "quantization": "Q5_K",
+          "note": "Depth-guided generation using a depth map + text prompt.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/depth/gguf/flux1-depth-dev-Q5_0.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/gguf/flux1-depth-dev-Q5_0.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-depth-q34",
+          "tier": "tier_c",
+          "model_size": "12B",
+          "quantization": "Q3_Q4",
+          "note": "Depth-guided generation using a depth map + text prompt.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/depth/gguf/flux1-depth-dev-Q4_0.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/gguf/flux1-depth-dev-Q4_0.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-depth-fp8",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP16",
+          "note": "Depth-guided generation using a depth map + text prompt.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/depth/flux1-depth-dev-fp8.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/flux1-depth-dev-fp8.safetensors"
+            }
+          ]
+        }
+      ],
+      "ram_tier_thresholds": {
+        "tier_a_min_gb": 30.0,
+        "tier_b_min_gb": 14.0
+      }
+    },
+    {
+      "id": "flux-1-kontext",
+      "display_name": "FLUX 1 KONTEXT",
+      "family": "flux1",
+      "variants": [
+        {
+          "id": "flux1-kontext-fp16",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP16",
+          "note": "In-context generation using text + images, enabling concept extraction, modification, and coherent new outputs.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/kontext/flux1-kontext-dev-fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/kontext/flux1-kontext-dev-fp16.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-kontext-fp8",
+          "tier": "tier_a",
+          "model_size": "12B",
+          "quantization": "FP8",
+          "note": "In-context generation using text + images, enabling concept extraction, modification, and coherent new outputs.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/kontext/flux1-dev-kontext_fp8_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/kontext/flux1-dev-kontext_fp8_scaled.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux1-kontext-q5",
+          "tier": "tier_b",
+          "model_size": "12B",
+          "quantization": "Q5_K",
+          "note": "In-context generation using text + images, enabling concept extraction, modification, and coherent new outputs.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/kontext/gguf/flux1-kontext-dev-Q5_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/kontext/gguf/flux1-kontext-dev-Q5_K_M.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-kontext-q34",
+          "tier": "tier_c",
+          "model_size": "12B",
+          "quantization": "Q3_Q4",
+          "note": "In-context generation using text + images, enabling concept extraction, modification, and coherent new outputs.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/kontext/gguf/flux1-kontext-dev-Q3_K_S.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/kontext/gguf/flux1-kontext-dev-Q3_K_S.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux1-kontext-fp16-copy",
+          "tier": "tier_s",
+          "model_size": "12B",
+          "quantization": "FP16",
+          "note": "In-context generation using text + images, enabling concept extraction, modification, and coherent new outputs.",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "unet/kontext/flux1-dev-kontext_fp8_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/kontext/flux1-dev-kontext_fp8_scaled.safetensors"
+            }
+          ]
+        }
+      ],
+      "ram_tier_thresholds": {
+        "tier_a_min_gb": 30.0,
+        "tier_b_min_gb": 14.0
+      }
+    },
+    {
+      "id": "flux-2-dev",
+      "display_name": "FLUX 2 DEV",
+      "family": "flux2",
+      "variants": [
+        {
+          "id": "flux2-dev-fp8",
+          "tier": "tier_s",
+          "model_size": "32B",
+          "quantization": "FP8",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "diffusion_models/flux2_dev_fp8mixed.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/diffusion_models/flux2_dev_fp8mixed.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux2-dev-fp8",
+          "tier": "tier_a",
+          "model_size": "32B",
+          "quantization": "FP8",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "diffusion_models/flux2_dev_fp8mixed.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/diffusion_models/flux2_dev_fp8mixed.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "flux2-dev-q3",
+          "tier": "tier_a",
+          "model_size": "32B",
+          "quantization": "Q3",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "gguf/flux2_dev_Q3_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q3_K_M.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux2-dev-q3",
+          "tier": "tier_b",
+          "model_size": "32B",
+          "quantization": "Q3",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "gguf/flux2_dev_Q3_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q3_K_M.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux2-dev-q2",
+          "tier": "tier_c",
+          "model_size": "32B",
+          "quantization": "Q2",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "gguf/flux2_dev_Q2_K.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q2_K.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux2-dev-fp8-copy",
+          "tier": "tier_s",
+          "model_size": "32B",
+          "quantization": "Q8",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "gguf/flux2_dev_Q8_0.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q8_0.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux2-dev-q4",
+          "tier": "tier_a",
+          "model_size": "32B",
+          "quantization": "Q4",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "gguf/flux2_dev_Q4_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q4_K_M.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux2-dev-q5",
+          "tier": "tier_a",
+          "model_size": "32B",
+          "quantization": "Q5",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "gguf/flux2_dev_Q5_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q5_K_M.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux2-dev-q6",
+          "tier": "tier_a",
+          "model_size": "32B",
+          "quantization": "Q6",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "gguf/flux2_dev_Q6_K.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q6_K.gguf"
+            }
+          ]
+        }
+      ],
+      "always": [
+        {
+          "id": "vae",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "vae/flux2-vae.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "vae",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/vae/flux2-vae.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "text_encoders",
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "text_encoders/mistral_3_small_flux2_fp8.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/text_encoders/mistral_3_small_flux2_fp8.safetensors"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loras": [
+    {
+      "id": "1",
+      "display_name": "RealComic",
+      "family": "Flux.1 Krea",
+      "download_url": "https://civitai.com/api/download/models/2321629?type=Model&format=SafeTensor"
+    },
+    {
+      "id": "2",
+      "display_name": "Dungeons & Dreamscapes",
+      "family": "Flux.1 Krea",
+      "download_url": "https://civitai.com/api/download/models/2176287?type=Model&format=SafeTensor"
+    }
+  ]
+}
