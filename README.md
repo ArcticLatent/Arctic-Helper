@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <a href="#"><img alt="Built With" src="https://img.shields.io/badge/Built%20With-232323?style=for-the-badge" /></a>
+  <a href="#"><img alt="Built With" src="https://img.shields.io/badge/Built%20With-232323" /></a>
   <a href="#"><img alt="Rust" src="https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=white" /></a>
   <a href="#"><img alt="Tauri" src="https://img.shields.io/badge/Tauri-24C8D8?logo=tauri&logoColor=fff" /></a>
 </p>
