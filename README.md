@@ -28,7 +28,7 @@ Think of it as:
 
 ---
 
-## 🖥️ PLATFORM
+## 🪟 PLATFORM
 
 <p>
   <img alt="Windows" src="https://img.shields.io/badge/Windows-10%2F11-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
