@@ -5,11 +5,14 @@
 <h1 align="center">Arctic ComfyUI Helper</h1>
 
 <p align="center">
-  A curated Windows companion for ComfyUI users who want the right models, LoRAs, and setup tools without guesswork.
+  For users who want to install and manage ComfyUI with different add-ons and custom nodes very easily on Windows and Linux, plus get the right models and LoRAs without guesswork.
 </p>
 
 <p align="center">
   <img alt="Windows" src="https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
+  <img alt="Ubuntu / Debian / Mint" src="https://img.shields.io/badge/Platform-Ubuntu%20%2F%20Debian%20%2F%20Mint-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+  <img alt="Fedora" src="https://img.shields.io/badge/Platform-Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white" />
+  <img alt="Arch Linux" src="https://img.shields.io/badge/Platform-Arch%20Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" />
   <img alt="Rust" src="https://img.shields.io/badge/Built%20with-Rust-000000?style=for-the-badge&logo=rust" />
   <img alt="Tauri" src="https://img.shields.io/badge/Desktop-Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white" />
 </p>
@@ -18,12 +21,21 @@
 
 ## 📚 Overview
 
-Arctic ComfyUI Helper mirrors the exact builds shown in Arctic Latent tutorials, so you can follow along with less setup friction.
-
 Think of it as:
-- A built-in **ComfyUI installer** for Windows (easy setup from inside the app)
+- A built-in **ComfyUI installer** for desktop workflows (easy setup from inside the app)
 - A curated model/LoRA catalog matched to your hardware tiers
 - A one-click downloader that places assets into the correct ComfyUI folders
+
+---
+
+## 🖥️ PLATFORM
+
+<p>
+  <img alt="Windows" src="https://img.shields.io/badge/Windows-10%2F11-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
+  <img alt="Ubuntu / Debian / Mint" src="https://img.shields.io/badge/Ubuntu%20%2F%20Debian%20%2F%20Mint-Supported-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+  <img alt="Fedora" src="https://img.shields.io/badge/Fedora-Supported-294172?style=for-the-badge&logo=fedora&logoColor=white" />
+  <img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-Supported-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" />
+</p>
 
 ---
 
@@ -73,12 +85,12 @@ Inside the **ComfyUI** tab, you can:
 
 ## 🚀 Getting Started
 
-1. Download the latest `Arctic-ComfyUI-Helper.exe` from this repo's **Releases** page.
-2. Run the app. This is a **standalone app** (no installer required).
+1. Download the latest package for your OS from this repo's **Releases** page (`.exe` for Windows, `.deb` for Ubuntu/Debian/Mint, `.rpm` for Fedora, and `.pkg.tar.zst` for Arch Linux).
+2. Run the app. It is a **standalone desktop app**.
 3. In **ComfyUI** tab, use **Install New** (or **Manage Existing**) if you want the app to install/manage ComfyUI itself.
 4. In **Models** / **LoRAs**, select your existing ComfyUI folder to download assets.
-5. Optional advanced logging: launch from terminal with  
-   `.\Arctic-ComfyUI-Helper.exe --nerdstats`
+5. Optional advanced logging: launch from terminal with `--nerdstats`  
+   Examples: `.\Arctic-ComfyUI-Helper.exe --nerdstats` (Windows), `./Arctic-ComfyUI-Helper --nerdstats` (Linux)
 
 That is it. Pick your setup, click, and the app handles the rest.
 
@@ -94,7 +106,7 @@ That is it. Pick your setup, click, and the app handles the rest.
 
 On startup, the app checks:
 
-`https://github.com/ArcticLatent/Arctic-Helper/releases/latest/download/update.json`
+the latest update manifest from this repository's GitHub Releases.
 
 If a newer version is found, the app downloads, verifies checksum, replaces binary, and restarts.
 
@@ -117,12 +129,18 @@ If a newer version is found, the app downloads, verifies checksum, replaces bina
 
 ## 🆘 Need Help?
 
-Open an issue in this repository with:
+Open `Issues` -> `New issue`, then choose:
+- **Cross-Platform Bug Report** for problems and errors
+- **Feature Request** for ideas and improvements
+
+Include:
+- Platform and version (Windows or Linux distro/version)
+- Package type used (`.exe`, `.deb`, `.rpm`, or `.pkg.tar.zst`)
 - What you clicked
 - What you expected
 - What happened
 - Any log lines shown in the app
-- If possible, run with `--nerdstats` and include the exact terminal logs in your issue
+- If possible, run with `--nerdstats` and include the exact terminal logs
 
 ---
 

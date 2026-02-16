@@ -1,0 +1,132 @@
+name: Cross-Platform Bug Report
+description: Report a bug for Arctic ComfyUI Helper on Windows or Linux.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please fill this out as completely as possible so the issue can be reproduced quickly.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform are you using?
+      options:
+        - Windows 10/11
+        - Ubuntu / Debian / Mint
+        - Fedora
+        - Arch Linux
+        - Other Linux distro
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: OS version
+      description: Examples: Windows 11 23H2, Ubuntu 24.04, Fedora 41, Arch (rolling)
+      placeholder: "Enter your OS version"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: package_type
+    attributes:
+      label: Package used
+      description: Which release asset did you install or run?
+      options:
+        - .exe (Windows)
+        - .deb (Ubuntu / Debian / Mint)
+        - .rpm (Fedora)
+        - .pkg.tar.zst (Arch Linux)
+        - Other / built from source
+    validations:
+      required: true
+
+  - type: input
+    id: app_version
+    attributes:
+      label: Arctic Helper version
+      description: Version shown in the app or release tag
+      placeholder: "vX.Y.Z"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: comfyui_mode
+    attributes:
+      label: ComfyUI mode
+      description: What were you doing in the app?
+      options:
+        - Install New
+        - Manage Existing
+        - Models download
+        - LoRAs download
+        - Start/Stop ComfyUI
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List exact steps so the issue can be reproduced.
+      placeholder: |
+        1. Open app
+        2. Go to ...
+        3. Click ...
+        4. Observe error ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: Describe what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: Describe what actually happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / error output
+      description: Paste relevant logs. If possible, run with --nerdstats and include terminal output.
+      render: shell
+
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+      description: Example: RTX 4080, RTX 3060 12GB, or CPU only
+      placeholder: "GPU model"
+
+  - type: input
+    id: driver
+    attributes:
+      label: NVIDIA driver version (if applicable)
+      placeholder: "e.g. 560.94"
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I am using the latest available app release.
+          required: true
+        - label: I searched existing issues before submitting.
+          required: true
+        - label: I included clear repro steps and logs.
+          required: true

@@ -1,0 +1,83 @@
+name: Feature Request
+description: Suggest an improvement for Arctic ComfyUI Helper.
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Please provide enough detail so we can evaluate and prioritize it.
+
+  - type: dropdown
+    id: platform_scope
+    attributes:
+      label: Platform scope
+      description: Where should this feature work?
+      options:
+        - Windows and Linux
+        - Windows only
+        - Linux only
+        - Ubuntu / Debian / Mint
+        - Fedora
+        - Arch Linux
+        - Other / not platform-specific
+    validations:
+      required: true
+
+  - type: input
+    id: summary
+    attributes:
+      label: Feature summary
+      description: One-line description of the feature.
+      placeholder: "Add ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / pain point
+      description: What problem are you trying to solve?
+      placeholder: Describe the current limitation or friction.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed solution
+      description: What should happen in the app?
+      placeholder: Describe your preferred behavior or workflow.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workaround or alternative approach you considered.
+      placeholder: Optional
+
+  - type: textarea
+    id: ui_ux_notes
+    attributes:
+      label: UI/UX notes (optional)
+      description: If relevant, describe where this fits in the UI.
+      placeholder: Example: Add a toggle in ComfyUI tab under Installer options.
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Links, screenshots, references, logs, or examples.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues before submitting.
+          required: true
+        - label: This is a feature request, not a bug report.
+          required: true
