@@ -152,6 +152,13 @@ Include:
 
 ---
 
+## 🙏 Special Thanks
+
+Thanks to [visualbruno](https://github.com/visualbruno) for the Trellis2 wrapper:  
+https://github.com/visualbruno/ComfyUI-Trellis2
+
+---
+
 ## 🧊 Author
 
 Burce Boran 🎥 Asset Supervisor / VFX Artist | 🐧 Arctic Latent
