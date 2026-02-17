@@ -80,11 +80,24 @@ Inside the **ComfyUI** tab, you can:
 
 ## 🚀 Getting Started
 
-1. Download the latest package for your OS from this repo's **Releases** page (`.exe` for Windows, `.deb` for Ubuntu/Debian/Mint, `.rpm` for Fedora, and `.pkg.tar.zst` for Arch Linux).
-2. Run the app. It is a **standalone desktop app**.
-3. In **ComfyUI** tab, use **Install New** (or **Manage Existing**) if you want the app to install/manage ComfyUI itself.
-4. In **Models** / **LoRAs**, select your existing ComfyUI folder to download assets.
-5. Optional advanced logging: launch from terminal with `--nerdstats`  
+1. Download the latest package from this repo's **Releases** page:
+   - Windows: `.exe`
+   - Ubuntu / Debian / Linux Mint: `.deb`
+   - Fedora: `.rpm`
+   - Arch Linux: `.pkg.tar.zst`
+2. Install it based on your distribution:
+   - Windows:
+     - No installation needed. Run the `.exe` directly (standalone app).
+   - Ubuntu / Debian / Linux Mint:
+     - `sudo apt install ./Arctic-ComfyUI-Helper_*.deb`
+   - Fedora:
+     - `sudo dnf install ./Arctic-ComfyUI-Helper-*.rpm`
+   - Arch Linux:
+     - `sudo pacman -U ./Arctic-ComfyUI-Helper-*.pkg.tar.zst`
+3. Run the app. It is a **standalone desktop app**.
+4. In **ComfyUI** tab, use **Install New** (or **Manage Existing**) if you want the app to install/manage ComfyUI itself.
+5. In **Models** / **LoRAs**, select your existing ComfyUI folder to download assets.
+6. Optional advanced logging: launch from terminal with `--nerdstats`  
    Examples: `.\Arctic-ComfyUI-Helper.exe --nerdstats` (Windows), `./Arctic-ComfyUI-Helper --nerdstats` (Linux)
 
 That is it. Pick your setup, click, and the app handles the rest.
