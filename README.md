@@ -159,6 +159,12 @@ https://github.com/visualbruno/ComfyUI-Trellis2
 
 ---
 
+## 🛡️ VirusTotal
+
+https://www.virustotal.com/gui/file/df11eb549dde404ddb6e0a73a5c9d61b1d1eecd11034dd9baa6d8b724b4e1121/detection
+
+---
+
 ## 🧊 Author
 
 Burce Boran 🎥 Asset Supervisor / VFX Artist | 🐧 Arctic Latent
@@ -177,3 +183,4 @@ This software is proprietary and closed-source.
 You may download and use for personal use only. Redistribution, modification, reverse engineering, or commercial use of this software or any included assets is prohibited without written permission from the copyright holder.
 
 The software is provided “as is” without warranty of any kind.
+
