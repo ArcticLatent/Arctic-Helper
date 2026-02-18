@@ -176,11 +176,14 @@ Burce Boran 🎥 Asset Supervisor / VFX Artist | 🐧 Arctic Latent
 
 ---
 
-Copyright (c) 2026 Arctic Helper. All Rights Reserved.
+## Open Source
 
-This software is proprietary and closed-source.
+Copyright (c) 2026 Arctic Helper contributors.
 
-You may download and use for personal use only. Redistribution, modification, reverse engineering, or commercial use of this software or any included assets is prohibited without written permission from the copyright holder.
+This project is open source.
 
-The software is provided “as is” without warranty of any kind.
+Development repositories:
+- Linux: https://github.com/ArcticLatent/ArcticDownloader-lin
+- Windows: https://github.com/ArcticLatent/ArcticDownloader-win
+
 
