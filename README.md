@@ -34,6 +34,15 @@ Think of it as:
 
 ---
 
+### New in Latest Version
+
+- 🧪 **Added Hugging Face Xet mode** as an optional experimental downloader for faster model downloads
+- 🗂️ **Shared-folder support is now easier:** you can define one shared models folder across multiple ComfyUI installs, and `extra_model_paths` setup is handled for you
+- 🧭 **New Workflows tab:** download my tutorial workflows in one click directly into your ComfyUI workflows folder
+- ⏳ **Smoother startup and updates** with clearer loading/update messages, cleaner logs, and more reliable version checking
+
+---
+
 ## 🧩 Core Features
 
 - 🛠️ **ComfyUI install module** (uv-managed Python + selectable add-ons/custom nodes)
@@ -176,14 +185,16 @@ Burce Boran 🎥 Asset Supervisor / VFX Artist | 🐧 Arctic Latent
 
 ---
 
-## Open Source
+## Support Project
 
-Copyright (c) 2026 Arctic Helper contributors.
+[![Buy Me a Coffee – Arctic Latent](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Arctic%20Latent-FFDD00?logo=buymeacoffee&logoColor=000)](https://buymeacoffee.com/arcticlatent)
+
+---
+
+## Open Source
 
 This project is open source.
 
 Development repositories:
 - Linux: https://github.com/ArcticLatent/ArcticDownloader-lin
 - Windows: https://github.com/ArcticLatent/ArcticDownloader-win
-
-
