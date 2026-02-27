@@ -93,7 +93,7 @@ Inside the **ComfyUI** tab, you can:
    - Windows: `.exe`
    - Ubuntu / Debian / Linux Mint: `.deb`
    - Fedora: `.rpm`
-   - Arch Linux: `.pkg.tar.zst`
+   - Arch Linux: install from AUR: [`arctic-comfyui-helper-bin`](https://aur.archlinux.org/packages/arctic-comfyui-helper-bin)
 2. Install it based on your distribution:
    - Windows:
      - No installation needed. Run the `.exe` directly (standalone app).
@@ -102,7 +102,8 @@ Inside the **ComfyUI** tab, you can:
    - Fedora:
      - `sudo dnf install ./Arctic-ComfyUI-Helper-*.rpm`
    - Arch Linux:
-     - `sudo pacman -U ./Arctic-ComfyUI-Helper-*.pkg.tar.zst`
+     - `yay -S arctic-comfyui-helper-bin`
+     - Or with paru: `paru -S arctic-comfyui-helper-bin`
 3. Run the app. It is a **standalone desktop app**.
 4. In **ComfyUI** tab, use **Install New** (or **Manage Existing**) if you want the app to install/manage ComfyUI itself.
 5. In **Models** / **LoRAs**, select your existing ComfyUI folder to download assets.
@@ -152,7 +153,7 @@ Open `Issues` -> `New issue`, then choose:
 
 Include:
 - Platform and version (Windows or Linux distro/version)
-- Package type used (`.exe`, `.deb`, `.rpm`, or `.pkg.tar.zst`)
+- Package type used (`.exe`, `.deb`, `.rpm`, or AUR package `arctic-comfyui-helper-bin`)
 - What you clicked
 - What you expected
 - What happened
