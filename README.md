@@ -11,6 +11,7 @@
 <p align="center">
   <a href="#"><img alt="NVIDIA CUDA" src="https://img.shields.io/badge/NVIDIA-CUDA-76B900?logo=nvidia&logoColor=white" /></a>
   <a href="#"><img alt="AMD ROCm" src="https://img.shields.io/badge/AMD-ROCm-CB2E6D?logo=amd&logoColor=white" /></a>
+  <a href="#"><img alt="Intel XPU" src="https://img.shields.io/badge/Intel-XPU-0071C5?logo=intel&logoColor=white" /></a>
 </p>
 
 <p align="center">
@@ -41,10 +42,11 @@ Think of it as:
 
 ### New in Latest Version
 
-- 🔴 **AMD support is now built in** on both Linux and Windows, with automatic GPU detection and ROCm/Torch profile selection on supported hardware
-- 🧭 **Guided ROCm setup** helps supported Linux systems get ready faster with distro-aware steps, readiness checks, and progress shown directly in the app logs
-- 🚩 **New launch Flags section** gives you simple control over ComfyUI startup options like `--listen`, SageAttention, and FlashAttention
-- ✨ **Cleaner launch behavior** now separates installed add-ons from runtime flags and removes the allocator warning seen during some ComfyUI launches
+- **AMD/ROCm support is now built in** on Windows and Linux with GPU-aware profile selection on supported systems
+- **Intel/XPU support is now included** on Windows and Linux with dedicated install paths and auto-detection for supported Intel GPU systems
+- **More launch flags** are available, including `--lowvram`, `--bf16-unet`, `--async-offload`, and `--disable-smart-memory`
+- **Launch settings are easier to manage** from both `Install New` and `Manage Existing`
+- **Install and update flow is more reliable** with better version detection, clearer preflight feedback, and healthier post-install dependencies
 
 ---
 
