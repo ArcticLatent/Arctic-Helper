@@ -42,11 +42,11 @@ Think of it as:
 
 ### New in Latest Version
 
-- **AMD/ROCm support is now built in** on Windows and Linux with GPU-aware profile selection on supported systems
-- **Intel/XPU support is now included** on Windows and Linux with dedicated install paths and auto-detection for supported Intel GPU systems
-- **More launch flags** are available, including `--lowvram`, `--bf16-unet`, `--async-offload`, and `--disable-smart-memory`
-- **Launch settings are easier to manage** from both `Install New` and `Manage Existing`
-- **Install and update flow is more reliable** with better version detection, clearer preflight feedback, and healthier post-install dependencies
+- **Models tab reworked** with multi-select downloads, search, and a queued selection flow
+- **Model destination feedback is clearer**, especially when using a shared models folder
+- **Custom ComfyUI startup options** can now be added, saved, and cleared in-app
+- **Live runtime console added** with filtering and easier-to-scan output when ComfyUI is launched from Arctic Helper
+- **UI and update reliability improved** with cleaner dropdowns, better model list layout, and a fix for Windows managed-install tag updates
 
 ---
 
