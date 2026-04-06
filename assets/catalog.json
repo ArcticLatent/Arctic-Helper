@@ -1978,6 +1978,24 @@
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3-nvfp4/resolve/main/ltx-2.3-22b-dev-nvfp4.safetensors"
             }
           ]
+        },
+        {
+          "id": "dev_nvfp4_s",
+          "tier": "tier_s",
+          "model_size": "21.7 GB",
+          "quantization": "NVFP4 / AIO",
+          "note": "Official NVFP4 Dev model for Blackwell / RTX 50-series",
+          "artifacts": [
+            {
+              "repo": "hf://Lightricks/LTX-2.3-nvfp4@main",
+              "path": "ltx-2.3-22b-dev-nvfp4.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "checkpoints",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/Lightricks/LTX-2.3-nvfp4/resolve/main/ltx-2.3-22b-dev-nvfp4.safetensors"
+            }
+          ]
         }
       ],
       "always": [
