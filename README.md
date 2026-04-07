@@ -21,6 +21,7 @@
   <a href="#"><img alt="Linux Mint" src="https://img.shields.io/badge/Linux%20Mint-87CF3E?logo=linuxmint&logoColor=fff" /></a>
   <a href="#"><img alt="Fedora" src="https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff" /></a>
   <a href="#"><img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff" /></a>
+  <a href="#"><img alt="Flatpak" src="https://img.shields.io/badge/Flatpak-4A90D9?logo=flatpak&logoColor=fff" /></a>
 </p>
 
 <p align="center">
@@ -105,6 +106,7 @@ Inside the **ComfyUI** tab, you can:
    - Ubuntu / Debian / Linux Mint: `.deb`
    - Fedora: `.rpm`
    - Arch Linux: install from AUR: [`arctic-comfyui-helper-bin`](https://aur.archlinux.org/packages/arctic-comfyui-helper-bin)
+   - Flatpak: `.flatpak`
 2. Install it based on your distribution:
    - Windows:
      - No installation needed. Run the `.exe` directly.
@@ -115,6 +117,8 @@ Inside the **ComfyUI** tab, you can:
    - Arch Linux:
      - `yay -S arctic-comfyui-helper-bin`
      - Or with paru: `paru -S arctic-comfyui-helper-bin`
+   - Flatpak:
+      - `flatpak install --user ./arctic-comfyui-helper-*-x86_64.flatpak`
 3. Run the app. It is a standalone desktop app.
 4. In the **ComfyUI** tab, use **Install New** or **Manage Existing** if you want the app to install or manage ComfyUI itself.
 5. In **Models** or **LoRAs**, select your existing ComfyUI folder to download assets.
