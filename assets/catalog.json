@@ -2048,6 +2048,196 @@
           ]
         }
       ]
+    },
+    {
+      "id": "seedvr-2-5",
+      "display_name": "SeedVR 2.5",
+      "family": "seedvr",
+      "variants": [
+        {
+          "id": "seedvr-7b-fp16",
+          "tier": "tier_s",
+          "model_size": "16.5 GB",
+          "quantization": "FP16",
+          "note": "Main 7B model",
+          "artifacts": [
+            {
+              "repo": "hf://numz/SeedVR2_comfyUI@main",
+              "path": "seedvr2_ema_7b_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "SEEDVR2",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_fp16.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "seedvr-7b-fp8",
+          "tier": "tier_a",
+          "model_size": "8.24 GB",
+          "quantization": "FP8",
+          "note": "Main 7B FP8 model",
+          "artifacts": [
+            {
+              "repo": "hf://numz/SeedVR2_comfyUI@main",
+              "path": "seedvr2_ema_7b_fp8_e4m3fn.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "SEEDVR2",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_fp8_e4m3fn.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "seedvr-7b-sharp-fp16",
+          "tier": "tier_s",
+          "model_size": "16.5 GB",
+          "quantization": "FP16",
+          "note": "Sharper 7B model",
+          "artifacts": [
+            {
+              "repo": "hf://numz/SeedVR2_comfyUI@main",
+              "path": "seedvr2_ema_7b_sharp_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "SEEDVR2",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_sharp_fp16.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "seedvr-7b-sharp-fp8",
+          "tier": "tier_a",
+          "model_size": "8.24 GB",
+          "quantization": "FP8",
+          "note": "Sharper 7B FP8 model",
+          "artifacts": [
+            {
+              "repo": "hf://numz/SeedVR2_comfyUI@main",
+              "path": "seedvr2_ema_7b_sharp_fp8_e4m3fn.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "SEEDVR2",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_sharp_fp8_e4m3fn.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "seedvr-3b-fp16",
+          "tier": "tier_b",
+          "model_size": "6.78 GB",
+          "quantization": "FP16",
+          "note": "Smaller 3B model",
+          "artifacts": [
+            {
+              "repo": "hf://numz/SeedVR2_comfyUI@main",
+              "path": "seedvr2_ema_3b_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "SEEDVR2",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_3b_fp16.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "seedvr-3b-fp8",
+          "tier": "tier_c",
+          "model_size": "3.39 GB",
+          "quantization": "FP8",
+          "note": "Smallest official model",
+          "artifacts": [
+            {
+              "repo": "hf://numz/SeedVR2_comfyUI@main",
+              "path": "seedvr2_ema_3b_fp8_e4m3fn.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "SEEDVR2",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_3b_fp8_e4m3fn.safetensors"
+            }
+          ]
+        }
+      ],
+      "always": [
+        {
+          "id": "vae",
+          "label": "SeedVR2 VAE",
+          "artifacts": [
+            {
+              "repo": "hf://numz/SeedVR2_comfyUI@main",
+              "path": "ema_vae_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "SEEDVR2",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/ema_vae_fp16.safetensors"
+            }
+          ]
+        }
+      ],
+      "ram_tier_thresholds": {
+        "tier_a_min_gb": 16.0,
+        "tier_b_min_gb": 10.0,
+        "tier_c_min_gb": 6.0
+      }
+    },
+    {
+      "id": "flashvsr",
+      "display_name": "FlashVSR",
+      "family": "flashvsr",
+      "variants": [],
+      "always": [
+        {
+          "id": "flashvsr_core",
+          "label": "Core FlashVSR files",
+          "artifacts": [
+            {
+              "repo": "hf://JunhaoZhuang/FlashVSR-v1.1@main",
+              "path": "LQ_proj_in.ckpt",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "FlashVSR",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1/resolve/main/LQ_proj_in.ckpt"
+            },
+            {
+              "repo": "hf://JunhaoZhuang/FlashVSR-v1.1@main",
+              "path": "TCDecoder.ckpt",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "FlashVSR",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1/resolve/main/TCDecoder.ckpt"
+            },
+            {
+              "repo": "hf://JunhaoZhuang/FlashVSR-v1.1@main",
+              "path": "diffusion_pytorch_model_streaming_dmd.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "FlashVSR",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1/resolve/main/diffusion_pytorch_model_streaming_dmd.safetensors"
+            },
+            {
+              "repo": "hf://JunhaoZhuang/FlashVSR-v1.1@main",
+              "path": "Wan2.1_VAE.pth",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "FlashVSR",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1/resolve/main/Wan2.1_VAE.pth"
+            }
+          ]
+        }
+      ],
+      "ram_tier_thresholds": {
+        "tier_a_min_gb": 16.0
+      }
     }
   ],
   "loras": [
