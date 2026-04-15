@@ -271,7 +271,7 @@
               "size_bytes": null,
               "target_category": "text_encoders",
               "license_url": null,
-              "min_ram_tier": "tier_a",
+              "ram_bucket": "tier_a",
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/clip/umt5_xxl_fp16.safetensors"
             },
             {
@@ -281,7 +281,7 @@
               "size_bytes": null,
               "target_category": "text_encoders",
               "license_url": null,
-              "min_ram_tier": "tier_b",
+              "ram_bucket": "tier_b",
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
             },
             {
@@ -291,7 +291,7 @@
               "size_bytes": null,
               "target_category": "text_encoders",
               "license_url": null,
-              "min_ram_tier": "tier_c",
+              "ram_bucket": "tier_c",
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/clip/gguf/umt5-xxl-encoder-Q5_K_M.gguf"
             },
             {
@@ -301,7 +301,7 @@
               "size_bytes": null,
               "target_category": "text_encoders",
               "license_url": null,
-              "min_ram_tier": "tier_a",
+              "ram_bucket": "tier_a",
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
             }
           ]
@@ -586,7 +586,7 @@
               "size_bytes": null,
               "target_category": "clip",
               "license_url": null,
-              "min_ram_tier": "tier_a",
+              "ram_bucket": "tier_a",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp16.safetensors"
             },
             {
@@ -596,7 +596,7 @@
               "size_bytes": null,
               "target_category": "clip",
               "license_url": null,
-              "min_ram_tier": "tier_b",
+              "ram_bucket": "tier_b",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp8_scaled.safetensors"
             },
             {
@@ -606,7 +606,7 @@
               "size_bytes": null,
               "target_category": "clip",
               "license_url": null,
-              "min_ram_tier": "tier_c",
+              "ram_bucket": "tier_c",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/gguf/t5xxl_Q5_K_M.gguf"
             },
             {
@@ -616,7 +616,7 @@
               "size_bytes": null,
               "target_category": "clip",
               "license_url": null,
-              "min_ram_tier": "tier_a",
+              "ram_bucket": "tier_a",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp8_scaled.safetensors"
             }
           ]
@@ -722,11 +722,7 @@
             }
           ]
         }
-      ],
-      "ram_tier_thresholds": {
-        "tier_a_min_gb": 30.0,
-        "tier_b_min_gb": 14.0
-      }
+      ]
     },
     {
       "id": "flux-1-schnell",
@@ -823,11 +819,7 @@
             }
           ]
         }
-      ],
-      "ram_tier_thresholds": {
-        "tier_a_min_gb": 30.0,
-        "tier_b_min_gb": 14.0
-      }
+      ]
     },
     {
       "id": "flux-1-fill",
@@ -924,11 +916,7 @@
             }
           ]
         }
-      ],
-      "ram_tier_thresholds": {
-        "tier_a_min_gb": 30.0,
-        "tier_b_min_gb": 14.0
-      }
+      ]
     },
     {
       "id": "flux-1-canny",
@@ -1025,11 +1013,7 @@
             }
           ]
         }
-      ],
-      "ram_tier_thresholds": {
-        "tier_a_min_gb": 30.0,
-        "tier_b_min_gb": 14.0
-      }
+      ]
     },
     {
       "id": "flux-1-depth",
@@ -1126,11 +1110,7 @@
             }
           ]
         }
-      ],
-      "ram_tier_thresholds": {
-        "tier_a_min_gb": 30.0,
-        "tier_b_min_gb": 14.0
-      }
+      ]
     },
     {
       "id": "flux-1-kontext",
@@ -1209,11 +1189,7 @@
             }
           ]
         }
-      ],
-      "ram_tier_thresholds": {
-        "tier_a_min_gb": 30.0,
-        "tier_b_min_gb": 14.0
-      }
+      ]
     },
     {
       "id": "flux-2-dev",
@@ -1597,7 +1573,7 @@
               "size_bytes": null,
               "target_category": "text_encoders",
               "license_url": null,
-              "min_ram_tier": "tier_a",
+              "ram_bucket": "tier_a",
               "direct_url": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/gemma-3-12b-it-qat-Q5_K_M.gguf"
             },
             {
@@ -1607,7 +1583,7 @@
               "size_bytes": null,
               "target_category": "text_encoders",
               "license_url": null,
-              "min_ram_tier": "tier_b",
+              "ram_bucket": "tier_b",
               "direct_url": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/gemma-3-12b-it-qat-Q4_K_S.gguf"
             },
             {
@@ -1617,7 +1593,7 @@
               "size_bytes": null,
               "target_category": "text_encoders",
               "license_url": null,
-              "min_ram_tier": "tier_c",
+              "ram_bucket": "tier_c",
               "direct_url": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/gemma-3-12b-it-qat-Q3_K_M.gguf"
             },
             {
@@ -1868,7 +1844,7 @@
               "size_bytes": null,
               "target_category": "text_encoders",
               "license_url": null,
-              "min_ram_tier": "tier_a",
+              "ram_bucket": "tier_a",
               "direct_url": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/gemma-3-12b-it-qat-Q5_K_M.gguf"
             },
             {
@@ -1878,7 +1854,7 @@
               "size_bytes": null,
               "target_category": "text_encoders",
               "license_url": null,
-              "min_ram_tier": "tier_b",
+              "ram_bucket": "tier_b",
               "direct_url": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/gemma-3-12b-it-qat-Q4_K_S.gguf"
             },
             {
@@ -1888,7 +1864,7 @@
               "size_bytes": null,
               "target_category": "text_encoders",
               "license_url": null,
-              "min_ram_tier": "tier_c",
+              "ram_bucket": "tier_c",
               "direct_url": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/gemma-3-12b-it-qat-Q3_K_M.gguf"
             },
             {
@@ -2179,12 +2155,7 @@
             }
           ]
         }
-      ],
-      "ram_tier_thresholds": {
-        "tier_a_min_gb": 16.0,
-        "tier_b_min_gb": 10.0,
-        "tier_c_min_gb": 6.0
-      }
+      ]
     },
     {
       "id": "flashvsr",
@@ -2234,10 +2205,7 @@
             }
           ]
         }
-      ],
-      "ram_tier_thresholds": {
-        "tier_a_min_gb": 16.0
-      }
+      ]
     }
   ],
   "loras": [
