@@ -2140,10 +2140,10 @@
         },
         {
           "id": "seedvr-q5",
-          "tier": "tier_a",
+          "tier": "tier_c",
           "model_size": "2.41 GB",
           "quantization": "Q5_K_M",
-          "note": null,
+          "note": "Quant Model",
           "artifacts": [
             {
               "repo": "hf://cmeka/SeedVR2-GGUF@main",
@@ -2158,10 +2158,10 @@
         },
         {
           "id": "seedvr-q4",
-          "tier": "tier_b",
+          "tier": "tier_c",
           "model_size": "2 GB",
           "quantization": "Q4_K_M",
-          "note": null,
+          "note": "Quant Model",
           "artifacts": [
             {
               "repo": "hf://cmeka/SeedVR2-GGUF@main",
@@ -2179,7 +2179,7 @@
           "tier": "tier_c",
           "model_size": "1.55 GB",
           "quantization": "Q3_K_M",
-          "note": null,
+          "note": "Quant Model",
           "artifacts": [
             {
               "repo": "hf://cmeka/SeedVR2-GGUF@main",
