@@ -1604,6 +1604,46 @@
               "target_category": "text_encoders",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/mmproj-BF16.gguf"
+            },
+            {
+              "repo": "hf://Comfy-Org/ltx-2@main",
+              "path": "split_files/text_encoders/gemma_3_12B_it.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "ram_bucket": "tier_a",
+              "direct_url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it.safetensors"
+            },
+            {
+              "repo": "hf://Comfy-Org/ltx-2@main",
+              "path": "split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "ram_bucket": "tier_a",
+              "direct_url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors"
+            },
+            {
+              "repo": "hf://Comfy-Org/ltx-2@main",
+              "path": "split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "ram_bucket": "tier_a",
+              "direct_url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors"
+            },
+            {
+              "repo": "hf://Comfy-Org/ltx-2@main",
+              "path": "split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "ram_bucket": "tier_b",
+              "direct_url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors"
             }
           ]
         },
@@ -1619,6 +1659,15 @@
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled-lora-384.safetensors"
+            },
+            {
+              "repo": "hf://Kijai/LTX2.3_comfy@main",
+              "path": "loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "loras",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors"
             }
           ]
         },
@@ -1875,6 +1924,46 @@
               "target_category": "text_encoders",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/mmproj-BF16.gguf"
+            },
+            {
+              "repo": "hf://Comfy-Org/ltx-2@main",
+              "path": "split_files/text_encoders/gemma_3_12B_it.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "ram_bucket": "tier_a",
+              "direct_url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it.safetensors"
+            },
+            {
+              "repo": "hf://Comfy-Org/ltx-2@main",
+              "path": "split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "ram_bucket": "tier_a",
+              "direct_url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors"
+            },
+            {
+              "repo": "hf://Comfy-Org/ltx-2@main",
+              "path": "split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "ram_bucket": "tier_a",
+              "direct_url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors"
+            },
+            {
+              "repo": "hf://Comfy-Org/ltx-2@main",
+              "path": "split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "ram_bucket": "tier_b",
+              "direct_url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors"
             }
           ]
         },
@@ -1890,6 +1979,15 @@
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled-lora-384.safetensors"
+            },
+            {
+              "repo": "hf://Kijai/LTX2.3_comfy@main",
+              "path": "loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "loras",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors"
             }
           ]
         },
@@ -1987,6 +2085,15 @@
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled-lora-384.safetensors"
+            },
+            {
+              "repo": "hf://Kijai/LTX2.3_comfy@main",
+              "path": "loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "loras",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors"
             }
           ]
         },
