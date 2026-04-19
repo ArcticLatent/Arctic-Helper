@@ -2325,7 +2325,7 @@
       "family": "wan",
       "youtube_url": "https://www.youtube.com/watch?v=ymjQ3KKsSHk",
       "workflow_json_url": "https://www.patreon.com/posts/wan-2-2-aio-148156243",
-      "preview_image_url": "https://raw.githubusercontent.com/ArcticLatent/Arctic-Helper/refs/heads/main/workflows/wan-2-2-all-in-one.png"
+      "preview_image_url": "https://raw.githubusercontent.com/ArcticLatent/Arctic-Helper/refs/heads/main/workflows/wan-2-2-all-in-one.webp"
     },
     {
       "id": "flux-all-in-one",
@@ -2333,7 +2333,7 @@
       "family": "flux",
       "youtube_url": "https://www.youtube.com/watch?v=sitZPvPxAmU",
       "workflow_json_url": "https://www.patreon.com/posts/flux-all-in-one-145283318",
-      "preview_image_url": "https://raw.githubusercontent.com/ArcticLatent/Arctic-Helper/refs/heads/main/workflows/flux-all-in-one.png"
+      "preview_image_url": "https://raw.githubusercontent.com/ArcticLatent/Arctic-Helper/refs/heads/main/workflows/flux-all-in-one.webp"
     }
   ]
 }
