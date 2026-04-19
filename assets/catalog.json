@@ -17,7 +17,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "unet_14b/Wan2_2-I2V-A14B-HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 15002999858,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/Wan2_2-I2V-A14B-HIGH_fp8_e4m3fn_scaled_KJ.safetensors"
@@ -26,7 +26,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "unet_14b/Wan2_2-I2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 15002999858,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/Wan2_2-I2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors"
@@ -35,7 +35,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "unet_14b/Wan2_2-T2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 15001361458,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/Wan2_2-T2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors"
@@ -44,7 +44,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "unet_14b/Wan2_2-T2V-A14B_HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 15001361458,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/Wan2_2-T2V-A14B_HIGH_fp8_e4m3fn_scaled_KJ.safetensors"
@@ -62,7 +62,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "unet_14b/wan2.2_i2v_high_noise_14B_fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 28577914792,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_i2v_high_noise_14B_fp16.safetensors"
@@ -71,7 +71,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "unet_14b/wan2.2_i2v_low_noise_14B_fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 28577914792,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_i2v_low_noise_14B_fp16.safetensors"
@@ -80,7 +80,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "unet_14b/wan2.2_t2v_high_noise_14B_fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 28577095592,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_t2v_high_noise_14B_fp16.safetensors"
@@ -89,7 +89,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "unet_14b/wan2.2_t2v_low_noise_14B_fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 28577095592,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_t2v_low_noise_14B_fp16.safetensors"
@@ -107,7 +107,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "unet_14b/gguf/Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 9651728896,
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf"
@@ -116,7 +116,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "unet_14b/gguf/Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 9651728896,
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf"
@@ -125,7 +125,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "unet_14b/gguf/Wan2.2-T2V-A14B-HighNoise-Q4_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 9650090496,
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-T2V-A14B-HighNoise-Q4_K_M.gguf"
@@ -134,7 +134,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "unet_14b/gguf/Wan2.2-T2V-A14B-LowNoise-Q4_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 9650090496,
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-T2V-A14B-LowNoise-Q4_K_M.gguf"
@@ -152,7 +152,7 @@
               "repo": "hf://QuantStack/Wan2.2-I2V-A14B-GGUF@main",
               "path": "HighNoise/Wan2.2-I2V-A14B-HighNoise-Q3_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 7176106496,
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-I2V-A14B-HighNoise-Q3_K_M.gguf"
@@ -161,7 +161,7 @@
               "repo": "hf://QuantStack/Wan2.2-I2V-A14B-GGUF@main",
               "path": "LowNoise/Wan2.2-I2V-A14B-LowNoise-Q3_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 7176106496,
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-I2V-A14B-LowNoise-Q3_K_M.gguf"
@@ -170,7 +170,7 @@
               "repo": "hf://QuantStack/Wan2.2-T2V-A14B-GGUF@main",
               "path": "HighNoise/Wan2.2-T2V-A14B-HighNoise-Q3_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 7174468096,
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-T2V-A14B-HighNoise-Q3_K_M.gguf"
@@ -179,7 +179,7 @@
               "repo": "hf://QuantStack/Wan2.2-T2V-A14B-GGUF@main",
               "path": "LowNoise/Wan2.2-T2V-A14B-LowNoise-Q3_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 7174468096,
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-T2V-A14B-LowNoise-Q3_K_M.gguf"
@@ -195,7 +195,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "vae/wan_2.1_vae.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 253815318,
               "target_category": "vae",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/vae/wan_2.1_vae.safetensors"
@@ -209,7 +209,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "lora/wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 634645944,
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022.safetensors"
@@ -218,7 +218,7 @@
               "repo": "hf://lightx2v/Wan2.2-Distill-Loras@main",
               "path": "wan2.2_i2v_A14b_low_noise_lora_rank64_lightx2v_4step_1022.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 739472104,
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/lightx2v/Wan2.2-Distill-Loras/resolve/main/wan2.2_i2v_A14b_low_noise_lora_rank64_lightx2v_4step_1022.safetensors"
@@ -227,7 +227,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "lora/wan2.2_t2v_A14b_high_noise_lora_rank64_lightx2v_4step_1217.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 613518320,
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/wan2.2_t2v_A14b_high_noise_lora_rank64_lightx2v_4step_1217.safetensors"
@@ -236,7 +236,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "lora/wan2.2_t2v_A14b_low_noise_lora_rank64_lightx2v_4step_1217.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 613518320,
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/wan2.2_t2v_A14b_low_noise_lora_rank64_lightx2v_4step_1217.safetensors"
@@ -245,7 +245,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "lora/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 1226934120,
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors"
@@ -254,7 +254,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "lora/SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 1226934120,
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors"
@@ -268,7 +268,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "clip/umt5_xxl_fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11366399385,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -278,7 +278,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 6735906897,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_b",
@@ -288,7 +288,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "clip/gguf/umt5-xxl-encoder-Q5_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 4145878880,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_c",
@@ -298,7 +298,7 @@
               "repo": "hf://arcticlatent/wan2.2@main",
               "path": "clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 6735906897,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -324,7 +324,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/dev/flux1-dev-fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 23802932552,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/flux1-dev-fp16.safetensors"
@@ -342,7 +342,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/dev/flux1-dev-fp8.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11901525888,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/flux1-dev-fp8.safetensors"
@@ -360,7 +360,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/dev/gguf/flux1-dev-Q5_K_S.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 8285267232,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/gguf/flux1-dev-Q5_K_S.gguf"
@@ -378,7 +378,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/dev/gguf/flux1-dev-Q3_K_S.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 5234255136,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/gguf/flux1-dev-Q3_K_S.gguf"
@@ -396,7 +396,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/dev/flux_dev_fp8_scaled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11901607560,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/flux_dev_fp8_scaled.safetensors"
@@ -412,7 +412,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "vae/ae.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 335304388,
               "target_category": "vae",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/vae/ae.safetensors"
@@ -426,7 +426,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "clip_vision/sigclip_vision_patch14_384.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 856505640,
               "target_category": "clip_vision",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip_vision/sigclip_vision_patch14_384.safetensors"
@@ -440,7 +440,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "pulid/pulid_flux_v0.9.1.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 1142099520,
               "target_category": "pulid",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/pulid/pulid_flux_v0.9.1.safetensors"
@@ -454,7 +454,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "style_models/flux1-redux-dev.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 129063232,
               "target_category": "style_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/style_models/flux1-redux-dev.safetensors"
@@ -468,7 +468,7 @@
               "repo": "hf://arcticlatent/misc@main",
               "path": "upscale_models/4x-UltraSharp.pth",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 66961958,
               "target_category": "upscale_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/misc/resolve/main/upscale_models/4x-UltraSharp.pth"
@@ -477,7 +477,7 @@
               "repo": "hf://arcticlatent/misc@main",
               "path": "upscale_models/RealESRGAN_x2plus.pth",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 67061725,
               "target_category": "upscale_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/misc/resolve/main/upscale_models/RealESRGAN_x2plus.pth"
@@ -491,7 +491,7 @@
               "repo": "hf://arcticlatent/misc@main",
               "path": "adetailer/sams/sam_vit_b_01ec64.pth",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 375042383,
               "target_category": "sams",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/misc/resolve/main/adetailer/sams/sam_vit_b_01ec64.pth"
@@ -500,7 +500,7 @@
               "repo": "hf://arcticlatent/misc@main",
               "path": "adetailer/Ultralytics/bbox/face_yolov8m.pt",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 51996128,
               "target_category": "ultralytics/bbox",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/misc/resolve/main/adetailer/Ultralytics/bbox/face_yolov8m.pt"
@@ -509,7 +509,7 @@
               "repo": "hf://arcticlatent/misc@main",
               "path": "adetailer/Ultralytics/bbox/hand_yolov8s.pt",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 22484536,
               "target_category": "ultralytics/bbox",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/misc/resolve/main/adetailer/Ultralytics/bbox/hand_yolov8s.pt"
@@ -523,7 +523,7 @@
               "repo": "hf://arcticlatent/misc@main",
               "path": "faceRestore_models/GFPGANv1.4.pth",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 348632874,
               "target_category": "facerestore_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/misc/resolve/main/faceRestore_models/GFPGANv1.4.pth"
@@ -532,7 +532,7 @@
               "repo": "hf://arcticlatent/misc@main",
               "path": "faceRestore_models/codeformer.pth",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 52581,
               "target_category": "facerestore_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/misc/blob/main/faceRestore_models/codeformer.pth"
@@ -546,7 +546,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "loras/schnell_lora.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 153268824,
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/loras/schnell_lora.safetensors"
@@ -560,7 +560,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "controlnets/flux_shakker_labs_union_pro-fp8.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 3301998248,
               "target_category": "controlnet",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/controlnets/flux_shakker_labs_union_pro-fp8.safetensors"
@@ -574,7 +574,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "clip/clip_l.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 246144152,
               "target_category": "clip",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/clip_l.safetensors"
@@ -583,7 +583,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "clip/t5xxl_fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 9787841024,
               "target_category": "clip",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -593,7 +593,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "clip/t5xxl_fp8_scaled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 5157348688,
               "target_category": "clip",
               "license_url": null,
               "ram_bucket": "tier_b",
@@ -603,7 +603,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "clip/gguf/t5xxl_Q5_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 3386856640,
               "target_category": "clip",
               "license_url": null,
               "ram_bucket": "tier_c",
@@ -613,7 +613,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "clip/t5xxl_fp8_scaled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 5157348688,
               "target_category": "clip",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -643,7 +643,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/krea/flux1-krea-dev.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 23802958224,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/flux1-krea-dev.safetensors"
@@ -661,7 +661,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/krea/flux1-krea-dev_fp8_scaled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11904639672,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/flux1-krea-dev_fp8_scaled.safetensors"
@@ -679,7 +679,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/krea/gguf/flux1-krea-dev-Q6_K.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 9848349984,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/gguf/flux1-krea-dev-Q6_K.gguf"
@@ -697,7 +697,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/krea/gguf/flux1-krea-dev-Q3_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 5368489248,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/gguf/flux1-krea-dev-Q3_K_M.gguf"
@@ -715,7 +715,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/krea/flux1-krea-dev_fp8_scaled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11904639672,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/flux1-krea-dev_fp8_scaled.safetensors"
@@ -740,7 +740,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/schnell/flux1-schnell-fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 23782506688,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/flux1-schnell-fp16.safetensors"
@@ -758,7 +758,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/schnell/flux1-schnell-fp8.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11891329784,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/flux1-schnell-fp8.safetensors"
@@ -776,7 +776,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/schnell/ggug/flux1-schnell-Q5_K_S.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 8263222304,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/ggug/flux1-schnell-Q5_K_S.gguf"
@@ -794,7 +794,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/schnell/ggug/flux1-schnell-Q3_K_S.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 5212210208,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/ggug/flux1-schnell-Q3_K_S.gguf"
@@ -812,7 +812,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/schnell/flux1-schnell-fp8.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11891329784,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/flux1-schnell-fp8.safetensors"
@@ -837,7 +837,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/fill/flux1-fill-dev-fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 23804922408,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/flux1-fill-dev-fp16.safetensors"
@@ -855,7 +855,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/fill/flux1-fill-dev-fp8.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11902539328,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/flux1-fill-dev-fp8.safetensors"
@@ -873,7 +873,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/fill/gguf/flux1-fill-dev-Q5_K_S.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 8289199392,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/gguf/flux1-fill-dev-Q5_K_S.gguf"
@@ -891,7 +891,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/fill/gguf/flux1-fill-dev-Q3_K_S.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 5238187296,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/gguf/flux1-fill-dev-Q3_K_S.gguf"
@@ -909,7 +909,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/fill/flux1-fill-dev-fp8.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11902539328,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/flux1-fill-dev-fp8.safetensors"
@@ -934,7 +934,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/canny/flux1-canny-dev-fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 23803351736,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/flux1-canny-dev-fp16.safetensors"
@@ -952,7 +952,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/canny/flux1-canny-dev-fp8.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11901755200,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/flux1-canny-dev-fp8.safetensors"
@@ -970,7 +970,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/canny/gguf/flux1-canny-dev-Q5_0.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 8277009696,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/gguf/flux1-canny-dev-Q5_0.gguf"
@@ -988,7 +988,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/canny/gguf/flux1-canny-dev-Q4_0.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 6797731104,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/gguf/flux1-canny-dev-Q4_0.gguf"
@@ -1006,7 +1006,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/canny/flux1-canny-dev-fp8.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11901755200,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/flux1-canny-dev-fp8.safetensors"
@@ -1031,7 +1031,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/depth/flux1-depth-dev-fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 23803351200,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/flux1-depth-dev-fp16.safetensors"
@@ -1049,7 +1049,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/depth/flux1-depth-dev-fp8.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11901754688,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/flux1-depth-dev-fp8.safetensors"
@@ -1067,7 +1067,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/depth/gguf/flux1-depth-dev-Q5_0.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 8277009696,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/gguf/flux1-depth-dev-Q5_0.gguf"
@@ -1085,7 +1085,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/depth/gguf/flux1-depth-dev-Q4_0.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 6797731104,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/gguf/flux1-depth-dev-Q4_0.gguf"
@@ -1103,7 +1103,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/depth/flux1-depth-dev-fp8.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11901754688,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/flux1-depth-dev-fp8.safetensors"
@@ -1128,7 +1128,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/kontext/flux1-kontext-dev-fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 23802947360,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/kontext/flux1-kontext-dev-fp16.safetensors"
@@ -1146,7 +1146,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/kontext/flux1-dev-kontext_fp8_scaled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11904640136,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/kontext/flux1-dev-kontext_fp8_scaled.safetensors"
@@ -1164,7 +1164,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/kontext/gguf/flux1-kontext-dev-Q5_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 8419501344,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/kontext/gguf/flux1-kontext-dev-Q5_K_M.gguf"
@@ -1182,7 +1182,7 @@
               "repo": "hf://arcticlatent/flux1@main",
               "path": "unet/kontext/gguf/flux1-kontext-dev-Q3_K_S.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 5225604384,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/kontext/gguf/flux1-kontext-dev-Q3_K_S.gguf"
@@ -1207,7 +1207,7 @@
               "repo": "hf://arcticlatent/flux2@main",
               "path": "diffusion_models/flux2_dev_fp8mixed.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 35455599592,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/diffusion_models/flux2_dev_fp8mixed.safetensors"
@@ -1225,7 +1225,7 @@
               "repo": "hf://arcticlatent/flux2@main",
               "path": "diffusion_models/flux2_dev_fp8mixed.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 35455599592,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/diffusion_models/flux2_dev_fp8mixed.safetensors"
@@ -1243,7 +1243,7 @@
               "repo": "hf://arcticlatent/flux2@main",
               "path": "gguf/flux2_dev_Q3_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 14479421536,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q3_K_M.gguf"
@@ -1261,7 +1261,7 @@
               "repo": "hf://arcticlatent/flux2@main",
               "path": "gguf/flux2_dev_Q3_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 14479421536,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q3_K_M.gguf"
@@ -1279,7 +1279,7 @@
               "repo": "hf://arcticlatent/flux2@main",
               "path": "gguf/flux2_dev_Q2_K.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 10991497312,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q2_K.gguf"
@@ -1297,7 +1297,7 @@
               "repo": "hf://arcticlatent/flux2@main",
               "path": "gguf/flux2_dev_Q8_0.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 34471800928,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q8_0.gguf"
@@ -1315,7 +1315,7 @@
               "repo": "hf://arcticlatent/flux2@main",
               "path": "gguf/flux2_dev_Q4_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 18711703648,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q4_K_M.gguf"
@@ -1333,7 +1333,7 @@
               "repo": "hf://arcticlatent/flux2@main",
               "path": "gguf/flux2_dev_Q5_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 22722506848,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q5_K_M.gguf"
@@ -1351,7 +1351,7 @@
               "repo": "hf://arcticlatent/flux2@main",
               "path": "gguf/flux2_dev_Q6_K.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 26728296544,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q6_K.gguf"
@@ -1367,7 +1367,7 @@
               "repo": "hf://arcticlatent/flux2@main",
               "path": "vae/flux2-vae.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 336213556,
               "target_category": "vae",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/vae/flux2-vae.safetensors"
@@ -1381,7 +1381,7 @@
               "repo": "hf://arcticlatent/flux2@main",
               "path": "text_encoders/mistral_3_small_flux2_fp8.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 18034640095,
               "target_category": "text_encoders",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/text_encoders/mistral_3_small_flux2_fp8.safetensors"
@@ -1406,7 +1406,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-22b-dev.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 46149344974,
               "target_category": "checkpoints",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-dev.safetensors"
@@ -1424,7 +1424,7 @@
               "repo": "hf://Lightricks/LTX-2.3-fp8@main",
               "path": "ltx-2.3-22b-dev-fp8.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 29145431166,
               "target_category": "checkpoints",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3-fp8/resolve/main/ltx-2.3-22b-dev-fp8.safetensors"
@@ -1442,7 +1442,7 @@
               "repo": "hf://Kijai/LTX2.3_comfy@main",
               "path": "diffusion_models/ltx-2.3-22b-dev_transformer_only_fp8_scaled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 23470368720,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2.3-22b-dev_transformer_only_fp8_scaled.safetensors"
@@ -1460,7 +1460,7 @@
               "repo": "hf://Kijai/LTX2.3_comfy@main",
               "path": "diffusion_models/ltx-2-3-22b-dev_transformer_only_fp8_input_scaled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 25016398608,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2-3-22b-dev_transformer_only_fp8_input_scaled.safetensors"
@@ -1478,7 +1478,7 @@
               "repo": "hf://unsloth/LTX-2.3-GGUF@main",
               "path": "ltx-2.3-22b-dev-Q4_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 14326856736,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q4_K_M.gguf"
@@ -1496,7 +1496,7 @@
               "repo": "hf://unsloth/LTX-2.3-GGUF@main",
               "path": "ltx-2.3-22b-dev-UD-Q4_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 16295991328,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-UD-Q4_K_M.gguf"
@@ -1514,7 +1514,7 @@
               "repo": "hf://unsloth/LTX-2.3-GGUF@3f76da94b42279d14edb03df7c7b751b16baa4e0",
               "path": "ltx-2.3-22b-dev-Q3_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 10770199968,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/3f76da94b42279d14edb03df7c7b751b16baa4e0/ltx-2.3-22b-dev-Q3_K_M.gguf"
@@ -1531,7 +1531,7 @@
               "repo": "hf://Kijai/LTX2.3_comfy@main",
               "path": "vae/LTX23_audio_vae_bf16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 364855188,
               "target_category": "vae",
               "license_url": null,
               "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_audio_vae_bf16.safetensors"
@@ -1540,7 +1540,7 @@
               "repo": "hf://Kijai/LTX2.3_comfy@main",
               "path": "vae/LTX23_video_vae_bf16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 1452258578,
               "target_category": "vae",
               "license_url": null,
               "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_video_vae_bf16.safetensors"
@@ -1555,7 +1555,7 @@
               "repo": "hf://Kijai/LTX2.3_comfy@main",
               "path": "text_encoders/ltx-2.3_text_projection_bf16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 2312149072,
               "target_category": "text_encoders",
               "license_url": null,
               "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/text_encoders/ltx-2.3_text_projection_bf16.safetensors"
@@ -1570,7 +1570,7 @@
               "repo": "hf://unsloth/gemma-3-12b-it-qat-GGUF@main",
               "path": "gemma-3-12b-it-qat-Q5_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 8445036928,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -1580,7 +1580,7 @@
               "repo": "hf://unsloth/gemma-3-12b-it-qat-GGUF@main",
               "path": "gemma-3-12b-it-qat-Q4_K_S.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 6935333248,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_b",
@@ -1590,7 +1590,7 @@
               "repo": "hf://unsloth/gemma-3-12b-it-qat-GGUF@main",
               "path": "gemma-3-12b-it-qat-Q3_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 6008818048,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_c",
@@ -1600,7 +1600,7 @@
               "repo": "hf://unsloth/gemma-3-12b-it-qat-GGUF@main",
               "path": "mmproj-BF16.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 854200448,
               "target_category": "text_encoders",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/mmproj-BF16.gguf"
@@ -1609,7 +1609,7 @@
               "repo": "hf://Comfy-Org/ltx-2@main",
               "path": "split_files/text_encoders/gemma_3_12B_it.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 24379468890,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -1619,7 +1619,7 @@
               "repo": "hf://Comfy-Org/ltx-2@main",
               "path": "split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 13205434827,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -1629,7 +1629,7 @@
               "repo": "hf://Comfy-Org/ltx-2@main",
               "path": "split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 13708659515,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -1639,7 +1639,7 @@
               "repo": "hf://Comfy-Org/ltx-2@main",
               "path": "split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 9447702218,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_b",
@@ -1655,7 +1655,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-22b-distilled-lora-384.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 7605507256,
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled-lora-384.safetensors"
@@ -1664,7 +1664,7 @@
               "repo": "hf://Kijai/LTX2.3_comfy@main",
               "path": "loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 2741024390,
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors"
@@ -1679,7 +1679,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 1090125794,
               "target_category": "latent_upscale_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors"
@@ -1688,7 +1688,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-spatial-upscaler-x2-1.1.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 995743560,
               "target_category": "latent_upscale_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.1.safetensors"
@@ -1697,7 +1697,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-temporal-upscaler-x2-1.0.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 261944000,
               "target_category": "latent_upscale_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-temporal-upscaler-x2-1.0.safetensors"
@@ -1726,7 +1726,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-22b-distilled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 46149345038,
               "target_category": "checkpoints",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled.safetensors"
@@ -1744,7 +1744,7 @@
               "repo": "hf://Kijai/LTX2.3_comfy@main",
               "path": "diffusion_models/ltx-2.3-22b-distilled_transformer_only_fp8_scaled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 23470368784,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2.3-22b-distilled_transformer_only_fp8_scaled.safetensors"
@@ -1762,7 +1762,7 @@
               "repo": "hf://Kijai/LTX2.3_comfy@main",
               "path": "diffusion_models/ltx-2.3-22b-distilled_transformer_only_fp8_input_scaled_v3.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 25016398672,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2.3-22b-distilled_transformer_only_fp8_input_scaled_v3.safetensors"
@@ -1780,7 +1780,7 @@
               "repo": "hf://unsloth/LTX-2.3-GGUF@main",
               "path": "distilled/ltx-2.3-22b-distilled-Q5_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 16071115808,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q5_K_M.gguf"
@@ -1798,7 +1798,7 @@
               "repo": "hf://unsloth/LTX-2.3-GGUF@main",
               "path": "distilled/ltx-2.3-22b-distilled-UD-Q5_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 18029814816,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-UD-Q5_K_M.gguf"
@@ -1816,7 +1816,7 @@
               "repo": "hf://unsloth/LTX-2.3-GGUF@main",
               "path": "distilled/ltx-2.3-22b-distilled-Q3_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 10770199584,
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q3_K_M.gguf"
@@ -1834,7 +1834,7 @@
               "repo": "hf://Lightricks/LTX-2.3-fp8@main",
               "path": "ltx-2.3-22b-distilled-fp8.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 29531884062,
               "target_category": "checkpoints",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3-fp8/resolve/main/ltx-2.3-22b-distilled-fp8.safetensors"
@@ -1851,7 +1851,7 @@
               "repo": "hf://Kijai/LTX2.3_comfy@main",
               "path": "vae/LTX23_audio_vae_bf16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 364855188,
               "target_category": "vae",
               "license_url": null,
               "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_audio_vae_bf16.safetensors"
@@ -1860,7 +1860,7 @@
               "repo": "hf://Kijai/LTX2.3_comfy@main",
               "path": "vae/LTX23_video_vae_bf16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 1452258578,
               "target_category": "vae",
               "license_url": null,
               "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_video_vae_bf16.safetensors"
@@ -1875,7 +1875,7 @@
               "repo": "hf://Kijai/LTX2.3_comfy@main",
               "path": "text_encoders/ltx-2.3_text_projection_bf16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 2312149072,
               "target_category": "text_encoders",
               "license_url": null,
               "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/text_encoders/ltx-2.3_text_projection_bf16.safetensors"
@@ -1890,7 +1890,7 @@
               "repo": "hf://unsloth/gemma-3-12b-it-qat-GGUF@main",
               "path": "gemma-3-12b-it-qat-Q5_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 8445036928,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -1900,7 +1900,7 @@
               "repo": "hf://unsloth/gemma-3-12b-it-qat-GGUF@main",
               "path": "gemma-3-12b-it-qat-Q4_K_S.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 6935333248,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_b",
@@ -1910,7 +1910,7 @@
               "repo": "hf://unsloth/gemma-3-12b-it-qat-GGUF@main",
               "path": "gemma-3-12b-it-qat-Q3_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 6008818048,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_c",
@@ -1920,7 +1920,7 @@
               "repo": "hf://unsloth/gemma-3-12b-it-qat-GGUF@main",
               "path": "mmproj-BF16.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 854200448,
               "target_category": "text_encoders",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/mmproj-BF16.gguf"
@@ -1929,7 +1929,7 @@
               "repo": "hf://Comfy-Org/ltx-2@main",
               "path": "split_files/text_encoders/gemma_3_12B_it.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 24379468890,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -1939,7 +1939,7 @@
               "repo": "hf://Comfy-Org/ltx-2@main",
               "path": "split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 13205434827,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -1949,7 +1949,7 @@
               "repo": "hf://Comfy-Org/ltx-2@main",
               "path": "split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 13708659515,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -1959,7 +1959,7 @@
               "repo": "hf://Comfy-Org/ltx-2@main",
               "path": "split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 9447702218,
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_b",
@@ -1975,7 +1975,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-22b-distilled-lora-384.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 7605507256,
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled-lora-384.safetensors"
@@ -1984,7 +1984,7 @@
               "repo": "hf://Kijai/LTX2.3_comfy@main",
               "path": "loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 2741024390,
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors"
@@ -1999,7 +1999,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 1090125794,
               "target_category": "latent_upscale_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors"
@@ -2008,7 +2008,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-spatial-upscaler-x2-1.1.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 995743560,
               "target_category": "latent_upscale_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.1.safetensors"
@@ -2017,7 +2017,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-temporal-upscaler-x2-1.0.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 261944000,
               "target_category": "latent_upscale_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-temporal-upscaler-x2-1.0.safetensors"
@@ -2046,7 +2046,7 @@
               "repo": "hf://Lightricks/LTX-2.3-nvfp4@main",
               "path": "ltx-2.3-22b-dev-nvfp4.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 21701367310,
               "target_category": "checkpoints",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3-nvfp4/resolve/main/ltx-2.3-22b-dev-nvfp4.safetensors"
@@ -2064,7 +2064,7 @@
               "repo": "hf://Lightricks/LTX-2.3-nvfp4@main",
               "path": "ltx-2.3-22b-dev-nvfp4.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 21701367310,
               "target_category": "checkpoints",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3-nvfp4/resolve/main/ltx-2.3-22b-dev-nvfp4.safetensors"
@@ -2081,7 +2081,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-22b-distilled-lora-384.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 7605507256,
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled-lora-384.safetensors"
@@ -2090,7 +2090,7 @@
               "repo": "hf://Kijai/LTX2.3_comfy@main",
               "path": "loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 2741024390,
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors"
@@ -2105,7 +2105,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 1090125794,
               "target_category": "latent_upscale_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors"
@@ -2114,7 +2114,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-spatial-upscaler-x2-1.1.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 995743560,
               "target_category": "latent_upscale_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.1.safetensors"
@@ -2123,7 +2123,7 @@
               "repo": "hf://Lightricks/LTX-2.3@main",
               "path": "ltx-2.3-temporal-upscaler-x2-1.0.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 261944000,
               "target_category": "latent_upscale_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-temporal-upscaler-x2-1.0.safetensors"
@@ -2148,7 +2148,7 @@
               "repo": "hf://numz/SeedVR2_comfyUI@main",
               "path": "seedvr2_ema_7b_fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 16479334424,
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_fp16.safetensors"
@@ -2166,7 +2166,7 @@
               "repo": "hf://numz/SeedVR2_comfyUI@main",
               "path": "seedvr2_ema_7b_fp8_e4m3fn.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 8239729704,
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_fp8_e4m3fn.safetensors"
@@ -2184,7 +2184,7 @@
               "repo": "hf://numz/SeedVR2_comfyUI@main",
               "path": "seedvr2_ema_7b_sharp_fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 16479334424,
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_sharp_fp16.safetensors"
@@ -2202,7 +2202,7 @@
               "repo": "hf://numz/SeedVR2_comfyUI@main",
               "path": "seedvr2_ema_7b_sharp_fp8_e4m3fn.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 8239729704,
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_sharp_fp8_e4m3fn.safetensors"
@@ -2220,7 +2220,7 @@
               "repo": "hf://numz/SeedVR2_comfyUI@main",
               "path": "seedvr2_ema_3b_fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 6783018808,
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_3b_fp16.safetensors"
@@ -2238,7 +2238,7 @@
               "repo": "hf://numz/SeedVR2_comfyUI@main",
               "path": "seedvr2_ema_3b_fp8_e4m3fn.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 3391544696,
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_3b_fp8_e4m3fn.safetensors"
@@ -2256,7 +2256,7 @@
               "repo": "hf://cmeka/SeedVR2-GGUF@main",
               "path": "seedvr2_ema_3b-Q5_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 2411661664,
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/cmeka/SeedVR2-GGUF/resolve/main/seedvr2_ema_3b-Q5_K_M.gguf"
@@ -2274,7 +2274,7 @@
               "repo": "hf://cmeka/SeedVR2-GGUF@main",
               "path": "seedvr2_ema_3b-Q4_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 1995344224,
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/cmeka/SeedVR2-GGUF/resolve/main/seedvr2_ema_3b-Q4_K_M.gguf"
@@ -2292,7 +2292,7 @@
               "repo": "hf://cmeka/SeedVR2-GGUF@main",
               "path": "seedvr2_ema_3b-Q3_K_M.gguf",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 1553006944,
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/cmeka/SeedVR2-GGUF/resolve/main/seedvr2_ema_3b-Q3_K_M.gguf"
@@ -2309,7 +2309,7 @@
               "repo": "hf://numz/SeedVR2_comfyUI@main",
               "path": "ema_vae_fp16.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 501324814,
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/ema_vae_fp16.safetensors"
@@ -2324,7 +2324,7 @@
               "repo": "url://direct",
               "path": "SeedVR2_4K_image_upscale.json",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 9537,
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://raw.githubusercontent.com/numz/ComfyUI-SeedVR2_VideoUpscaler/refs/heads/main/example_workflows/SeedVR2_4K_image_upscale.json"
@@ -2333,7 +2333,7 @@
               "repo": "url://direct",
               "path": "SeedVR2_HD_video_upscale.json",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 10908,
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://raw.githubusercontent.com/numz/ComfyUI-SeedVR2_VideoUpscaler/refs/heads/main/example_workflows/SeedVR2_HD_video_upscale.json"
@@ -2342,7 +2342,7 @@
               "repo": "url://direct",
               "path": "SeedVR2_simple_image_upscale.json",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 9529,
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://raw.githubusercontent.com/numz/ComfyUI-SeedVR2_VideoUpscaler/refs/heads/main/example_workflows/SeedVR2_simple_image_upscale.json"
@@ -2365,7 +2365,7 @@
               "repo": "hf://JunhaoZhuang/FlashVSR-v1.1@main",
               "path": "LQ_proj_in.ckpt",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 575694948,
               "target_category": "FlashVSR",
               "license_url": null,
               "direct_url": "https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1/resolve/main/LQ_proj_in.ckpt"
@@ -2374,7 +2374,7 @@
               "repo": "hf://JunhaoZhuang/FlashVSR-v1.1@main",
               "path": "TCDecoder.ckpt",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 189018333,
               "target_category": "FlashVSR",
               "license_url": null,
               "direct_url": "https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1/resolve/main/TCDecoder.ckpt"
@@ -2383,7 +2383,7 @@
               "repo": "hf://JunhaoZhuang/FlashVSR-v1.1@main",
               "path": "diffusion_pytorch_model_streaming_dmd.safetensors",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 5676070392,
               "target_category": "FlashVSR",
               "license_url": null,
               "direct_url": "https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1/resolve/main/diffusion_pytorch_model_streaming_dmd.safetensors"
@@ -2392,7 +2392,7 @@
               "repo": "hf://JunhaoZhuang/FlashVSR-v1.1@main",
               "path": "Wan2.1_VAE.pth",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 507609880,
               "target_category": "FlashVSR",
               "license_url": null,
               "direct_url": "https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1/resolve/main/Wan2.1_VAE.pth"
@@ -2401,7 +2401,7 @@
               "repo": "url://direct",
               "path": "FlashVSR.json",
               "sha256": null,
-              "size_bytes": null,
+              "size_bytes": 11781,
               "target_category": "FlashVSR",
               "license_url": null,
               "direct_url": "https://raw.githubusercontent.com/naxci1/ComfyUI-FlashVSR_Stable/refs/heads/main/workflow/FlashVSR.json"
