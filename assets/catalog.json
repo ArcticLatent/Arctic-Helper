@@ -2137,6 +2137,60 @@
               "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_3b_fp8_e4m3fn.safetensors"
             }
           ]
+        },
+        {
+          "id": "seedvr-q5",
+          "tier": "tier_a",
+          "model_size": "2.41 GB",
+          "quantization": "Q5_K_M",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://cmeka/SeedVR2-GGUF@main",
+              "path": "seedvr2_ema_3b-Q5_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "SEEDVR2",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/cmeka/SeedVR2-GGUF/resolve/main/seedvr2_ema_3b-Q5_K_M.gguf"
+            }
+          ]
+        },
+        {
+          "id": "seedvr-q4",
+          "tier": "tier_b",
+          "model_size": "2 GB",
+          "quantization": "Q4_K_M",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://cmeka/SeedVR2-GGUF@main",
+              "path": "seedvr2_ema_3b-Q4_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "SEEDVR2",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/cmeka/SeedVR2-GGUF/resolve/main/seedvr2_ema_3b-Q4_K_M.gguf"
+            }
+          ]
+        },
+        {
+          "id": "seedvr-q3",
+          "tier": "tier_c",
+          "model_size": "1.55 GB",
+          "quantization": "Q3_K_M",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://cmeka/SeedVR2-GGUF@main",
+              "path": "seedvr2_ema_3b-Q3_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "SEEDVR2",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/cmeka/SeedVR2-GGUF/resolve/main/seedvr2_ema_3b-Q3_K_M.gguf"
+            }
+          ]
         }
       ],
       "always": [
@@ -2152,6 +2206,39 @@
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/ema_vae_fp16.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "workflows",
+          "label": "SeedVR2 Example Workflows",
+          "artifacts": [
+            {
+              "repo": "url://direct",
+              "path": "SeedVR2_4K_image_upscale.json",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "SEEDVR2",
+              "license_url": null,
+              "direct_url": "https://raw.githubusercontent.com/numz/ComfyUI-SeedVR2_VideoUpscaler/refs/heads/main/example_workflows/SeedVR2_4K_image_upscale.json"
+            },
+            {
+              "repo": "url://direct",
+              "path": "SeedVR2_HD_video_upscale.json",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "SEEDVR2",
+              "license_url": null,
+              "direct_url": "https://raw.githubusercontent.com/numz/ComfyUI-SeedVR2_VideoUpscaler/refs/heads/main/example_workflows/SeedVR2_HD_video_upscale.json"
+            },
+            {
+              "repo": "url://direct",
+              "path": "SeedVR2_simple_image_upscale.json",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "SEEDVR2",
+              "license_url": null,
+              "direct_url": "https://raw.githubusercontent.com/numz/ComfyUI-SeedVR2_VideoUpscaler/refs/heads/main/example_workflows/SeedVR2_simple_image_upscale.json"
             }
           ]
         }
@@ -2202,6 +2289,15 @@
               "target_category": "FlashVSR",
               "license_url": null,
               "direct_url": "https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1/resolve/main/Wan2.1_VAE.pth"
+            },
+            {
+              "repo": "url://direct",
+              "path": "FlashVSR.json",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "FlashVSR",
+              "license_url": null,
+              "direct_url": "https://raw.githubusercontent.com/naxci1/ComfyUI-FlashVSR_Stable/refs/heads/main/workflow/FlashVSR.json"
             }
           ]
         }
