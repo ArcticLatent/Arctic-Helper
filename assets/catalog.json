@@ -604,6 +604,11 @@
               "path": "clip/gguf/t5xxl_Q5_K_M.gguf",
               "sha256": null,
               "size_bytes": 3386856640,
+              "memory_estimate": {
+                "runtime_ram_bytes": 4997469376,
+                "confidence": "estimated",
+                "source": "gguf_metadata"
+              },
               "target_category": "clip",
               "license_url": null,
               "ram_bucket": "tier_c",
@@ -1571,6 +1576,11 @@
               "path": "gemma-3-12b-it-qat-Q5_K_M.gguf",
               "sha256": null,
               "size_bytes": 8445036928,
+              "memory_estimate": {
+                "runtime_ram_bytes": 9954986368,
+                "confidence": "estimated",
+                "source": "gguf_metadata"
+              },
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -1581,6 +1591,11 @@
               "path": "gemma-3-12b-it-qat-Q4_K_S.gguf",
               "sha256": null,
               "size_bytes": 6935333248,
+              "memory_estimate": {
+                "runtime_ram_bytes": 8445282688,
+                "confidence": "estimated",
+                "source": "gguf_metadata"
+              },
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_b",
@@ -1591,6 +1606,11 @@
               "path": "gemma-3-12b-it-qat-Q3_K_M.gguf",
               "sha256": null,
               "size_bytes": 6008818048,
+              "memory_estimate": {
+                "runtime_ram_bytes": 7518767488,
+                "confidence": "estimated",
+                "source": "gguf_metadata"
+              },
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_c",
@@ -1601,6 +1621,11 @@
               "path": "mmproj-BF16.gguf",
               "sha256": null,
               "size_bytes": 854200448,
+              "memory_estimate": {
+                "runtime_ram_bytes": 1363808384,
+                "confidence": "estimated",
+                "source": "gguf_metadata"
+              },
               "target_category": "text_encoders",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/mmproj-BF16.gguf"
@@ -1891,6 +1916,11 @@
               "path": "gemma-3-12b-it-qat-Q5_K_M.gguf",
               "sha256": null,
               "size_bytes": 8445036928,
+              "memory_estimate": {
+                "runtime_ram_bytes": 9954986368,
+                "confidence": "estimated",
+                "source": "gguf_metadata"
+              },
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_a",
@@ -1901,6 +1931,11 @@
               "path": "gemma-3-12b-it-qat-Q4_K_S.gguf",
               "sha256": null,
               "size_bytes": 6935333248,
+              "memory_estimate": {
+                "runtime_ram_bytes": 8445282688,
+                "confidence": "estimated",
+                "source": "gguf_metadata"
+              },
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_b",
@@ -1911,6 +1946,11 @@
               "path": "gemma-3-12b-it-qat-Q3_K_M.gguf",
               "sha256": null,
               "size_bytes": 6008818048,
+              "memory_estimate": {
+                "runtime_ram_bytes": 7518767488,
+                "confidence": "estimated",
+                "source": "gguf_metadata"
+              },
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_c",
@@ -1921,6 +1961,11 @@
               "path": "mmproj-BF16.gguf",
               "sha256": null,
               "size_bytes": 854200448,
+              "memory_estimate": {
+                "runtime_ram_bytes": 1363808384,
+                "confidence": "estimated",
+                "source": "gguf_metadata"
+              },
               "target_category": "text_encoders",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/mmproj-BF16.gguf"
