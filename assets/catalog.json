@@ -108,6 +108,11 @@
               "path": "unet_14b/gguf/Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf",
               "sha256": null,
               "size_bytes": 9651728896,
+              "memory_estimate": {
+                "runtime_ram_bytes": 9651728896,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf"
@@ -117,6 +122,11 @@
               "path": "unet_14b/gguf/Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf",
               "sha256": null,
               "size_bytes": 9651728896,
+              "memory_estimate": {
+                "runtime_ram_bytes": 9651728896,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf"
@@ -126,6 +136,11 @@
               "path": "unet_14b/gguf/Wan2.2-T2V-A14B-HighNoise-Q4_K_M.gguf",
               "sha256": null,
               "size_bytes": 9650090496,
+              "memory_estimate": {
+                "runtime_ram_bytes": 9650090496,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-T2V-A14B-HighNoise-Q4_K_M.gguf"
@@ -135,6 +150,11 @@
               "path": "unet_14b/gguf/Wan2.2-T2V-A14B-LowNoise-Q4_K_M.gguf",
               "sha256": null,
               "size_bytes": 9650090496,
+              "memory_estimate": {
+                "runtime_ram_bytes": 9650090496,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-T2V-A14B-LowNoise-Q4_K_M.gguf"
@@ -153,6 +173,11 @@
               "path": "HighNoise/Wan2.2-I2V-A14B-HighNoise-Q3_K_M.gguf",
               "sha256": null,
               "size_bytes": 7176106496,
+              "memory_estimate": {
+                "runtime_ram_bytes": 7176106496,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-I2V-A14B-HighNoise-Q3_K_M.gguf"
@@ -162,6 +187,11 @@
               "path": "LowNoise/Wan2.2-I2V-A14B-LowNoise-Q3_K_M.gguf",
               "sha256": null,
               "size_bytes": 7176106496,
+              "memory_estimate": {
+                "runtime_ram_bytes": 7176106496,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-I2V-A14B-LowNoise-Q3_K_M.gguf"
@@ -171,6 +201,11 @@
               "path": "HighNoise/Wan2.2-T2V-A14B-HighNoise-Q3_K_M.gguf",
               "sha256": null,
               "size_bytes": 7174468096,
+              "memory_estimate": {
+                "runtime_ram_bytes": 7174468096,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-T2V-A14B-HighNoise-Q3_K_M.gguf"
@@ -180,6 +215,11 @@
               "path": "LowNoise/Wan2.2-T2V-A14B-LowNoise-Q3_K_M.gguf",
               "sha256": null,
               "size_bytes": 7174468096,
+              "memory_estimate": {
+                "runtime_ram_bytes": 7174468096,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "unet",
               "license_url": null,
               "direct_url": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-T2V-A14B-LowNoise-Q3_K_M.gguf"
@@ -289,6 +329,11 @@
               "path": "clip/gguf/umt5-xxl-encoder-Q5_K_M.gguf",
               "sha256": null,
               "size_bytes": 4145878880,
+              "memory_estimate": {
+                "runtime_ram_bytes": 5756491616,
+                "confidence": "estimated",
+                "source": "gguf_metadata"
+              },
               "target_category": "text_encoders",
               "license_url": null,
               "ram_bucket": "tier_c",
@@ -361,6 +406,11 @@
               "path": "unet/dev/gguf/flux1-dev-Q5_K_S.gguf",
               "sha256": null,
               "size_bytes": 8285267232,
+              "memory_estimate": {
+                "runtime_ram_bytes": 8285267232,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/gguf/flux1-dev-Q5_K_S.gguf"
@@ -379,6 +429,11 @@
               "path": "unet/dev/gguf/flux1-dev-Q3_K_S.gguf",
               "sha256": null,
               "size_bytes": 5234255136,
+              "memory_estimate": {
+                "runtime_ram_bytes": 5234255136,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/gguf/flux1-dev-Q3_K_S.gguf"
@@ -685,6 +740,11 @@
               "path": "unet/krea/gguf/flux1-krea-dev-Q6_K.gguf",
               "sha256": null,
               "size_bytes": 9848349984,
+              "memory_estimate": {
+                "runtime_ram_bytes": 9848349984,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/gguf/flux1-krea-dev-Q6_K.gguf"
@@ -703,6 +763,11 @@
               "path": "unet/krea/gguf/flux1-krea-dev-Q3_K_M.gguf",
               "sha256": null,
               "size_bytes": 5368489248,
+              "memory_estimate": {
+                "runtime_ram_bytes": 5368489248,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/gguf/flux1-krea-dev-Q3_K_M.gguf"
@@ -782,6 +847,11 @@
               "path": "unet/schnell/ggug/flux1-schnell-Q5_K_S.gguf",
               "sha256": null,
               "size_bytes": 8263222304,
+              "memory_estimate": {
+                "runtime_ram_bytes": 8263222304,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/ggug/flux1-schnell-Q5_K_S.gguf"
@@ -800,6 +870,11 @@
               "path": "unet/schnell/ggug/flux1-schnell-Q3_K_S.gguf",
               "sha256": null,
               "size_bytes": 5212210208,
+              "memory_estimate": {
+                "runtime_ram_bytes": 5212210208,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/ggug/flux1-schnell-Q3_K_S.gguf"
@@ -879,6 +954,11 @@
               "path": "unet/fill/gguf/flux1-fill-dev-Q5_K_S.gguf",
               "sha256": null,
               "size_bytes": 8289199392,
+              "memory_estimate": {
+                "runtime_ram_bytes": 8289199392,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/gguf/flux1-fill-dev-Q5_K_S.gguf"
@@ -897,6 +977,11 @@
               "path": "unet/fill/gguf/flux1-fill-dev-Q3_K_S.gguf",
               "sha256": null,
               "size_bytes": 5238187296,
+              "memory_estimate": {
+                "runtime_ram_bytes": 5238187296,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/gguf/flux1-fill-dev-Q3_K_S.gguf"
@@ -976,6 +1061,11 @@
               "path": "unet/canny/gguf/flux1-canny-dev-Q5_0.gguf",
               "sha256": null,
               "size_bytes": 8277009696,
+              "memory_estimate": {
+                "runtime_ram_bytes": 8277009696,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/gguf/flux1-canny-dev-Q5_0.gguf"
@@ -994,6 +1084,11 @@
               "path": "unet/canny/gguf/flux1-canny-dev-Q4_0.gguf",
               "sha256": null,
               "size_bytes": 6797731104,
+              "memory_estimate": {
+                "runtime_ram_bytes": 6797731104,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/gguf/flux1-canny-dev-Q4_0.gguf"
@@ -1073,6 +1168,11 @@
               "path": "unet/depth/gguf/flux1-depth-dev-Q5_0.gguf",
               "sha256": null,
               "size_bytes": 8277009696,
+              "memory_estimate": {
+                "runtime_ram_bytes": 8277009696,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/gguf/flux1-depth-dev-Q5_0.gguf"
@@ -1091,6 +1191,11 @@
               "path": "unet/depth/gguf/flux1-depth-dev-Q4_0.gguf",
               "sha256": null,
               "size_bytes": 6797731104,
+              "memory_estimate": {
+                "runtime_ram_bytes": 6797731104,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/gguf/flux1-depth-dev-Q4_0.gguf"
@@ -1170,6 +1275,11 @@
               "path": "unet/kontext/gguf/flux1-kontext-dev-Q5_K_M.gguf",
               "sha256": null,
               "size_bytes": 8419501344,
+              "memory_estimate": {
+                "runtime_ram_bytes": 8419501344,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/kontext/gguf/flux1-kontext-dev-Q5_K_M.gguf"
@@ -1188,6 +1298,11 @@
               "path": "unet/kontext/gguf/flux1-kontext-dev-Q3_K_S.gguf",
               "sha256": null,
               "size_bytes": 5225604384,
+              "memory_estimate": {
+                "runtime_ram_bytes": 5225604384,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/kontext/gguf/flux1-kontext-dev-Q3_K_S.gguf"
@@ -1249,6 +1364,11 @@
               "path": "gguf/flux2_dev_Q3_K_M.gguf",
               "sha256": null,
               "size_bytes": 14479421536,
+              "memory_estimate": {
+                "runtime_ram_bytes": 14479421536,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q3_K_M.gguf"
@@ -1267,6 +1387,11 @@
               "path": "gguf/flux2_dev_Q3_K_M.gguf",
               "sha256": null,
               "size_bytes": 14479421536,
+              "memory_estimate": {
+                "runtime_ram_bytes": 14479421536,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q3_K_M.gguf"
@@ -1285,6 +1410,11 @@
               "path": "gguf/flux2_dev_Q2_K.gguf",
               "sha256": null,
               "size_bytes": 10991497312,
+              "memory_estimate": {
+                "runtime_ram_bytes": 10991497312,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q2_K.gguf"
@@ -1303,6 +1433,11 @@
               "path": "gguf/flux2_dev_Q8_0.gguf",
               "sha256": null,
               "size_bytes": 34471800928,
+              "memory_estimate": {
+                "runtime_ram_bytes": 34471800928,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q8_0.gguf"
@@ -1321,6 +1456,11 @@
               "path": "gguf/flux2_dev_Q4_K_M.gguf",
               "sha256": null,
               "size_bytes": 18711703648,
+              "memory_estimate": {
+                "runtime_ram_bytes": 18711703648,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q4_K_M.gguf"
@@ -1339,6 +1479,11 @@
               "path": "gguf/flux2_dev_Q5_K_M.gguf",
               "sha256": null,
               "size_bytes": 22722506848,
+              "memory_estimate": {
+                "runtime_ram_bytes": 22722506848,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q5_K_M.gguf"
@@ -1357,6 +1502,11 @@
               "path": "gguf/flux2_dev_Q6_K.gguf",
               "sha256": null,
               "size_bytes": 26728296544,
+              "memory_estimate": {
+                "runtime_ram_bytes": 26728296544,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q6_K.gguf"
@@ -1484,6 +1634,11 @@
               "path": "ltx-2.3-22b-dev-Q4_K_M.gguf",
               "sha256": null,
               "size_bytes": 14326856736,
+              "memory_estimate": {
+                "runtime_ram_bytes": 14326856736,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q4_K_M.gguf"
@@ -1502,6 +1657,11 @@
               "path": "ltx-2.3-22b-dev-UD-Q4_K_M.gguf",
               "sha256": null,
               "size_bytes": 16295991328,
+              "memory_estimate": {
+                "runtime_ram_bytes": 16295991328,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-UD-Q4_K_M.gguf"
@@ -1520,6 +1680,11 @@
               "path": "ltx-2.3-22b-dev-Q3_K_M.gguf",
               "sha256": null,
               "size_bytes": 10770199968,
+              "memory_estimate": {
+                "runtime_ram_bytes": 10770199968,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/3f76da94b42279d14edb03df7c7b751b16baa4e0/ltx-2.3-22b-dev-Q3_K_M.gguf"
@@ -1806,6 +1971,11 @@
               "path": "distilled/ltx-2.3-22b-distilled-Q5_K_M.gguf",
               "sha256": null,
               "size_bytes": 16071115808,
+              "memory_estimate": {
+                "runtime_ram_bytes": 16071115808,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q5_K_M.gguf"
@@ -1824,6 +1994,11 @@
               "path": "distilled/ltx-2.3-22b-distilled-UD-Q5_K_M.gguf",
               "sha256": null,
               "size_bytes": 18029814816,
+              "memory_estimate": {
+                "runtime_ram_bytes": 18029814816,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-UD-Q5_K_M.gguf"
@@ -1842,6 +2017,11 @@
               "path": "distilled/ltx-2.3-22b-distilled-Q3_K_M.gguf",
               "sha256": null,
               "size_bytes": 10770199584,
+              "memory_estimate": {
+                "runtime_ram_bytes": 10770199584,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q3_K_M.gguf"
@@ -2302,6 +2482,11 @@
               "path": "seedvr2_ema_3b-Q5_K_M.gguf",
               "sha256": null,
               "size_bytes": 2411661664,
+              "memory_estimate": {
+                "runtime_ram_bytes": 2411661664,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/cmeka/SeedVR2-GGUF/resolve/main/seedvr2_ema_3b-Q5_K_M.gguf"
@@ -2320,6 +2505,11 @@
               "path": "seedvr2_ema_3b-Q4_K_M.gguf",
               "sha256": null,
               "size_bytes": 1995344224,
+              "memory_estimate": {
+                "runtime_ram_bytes": 1995344224,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/cmeka/SeedVR2-GGUF/resolve/main/seedvr2_ema_3b-Q4_K_M.gguf"
@@ -2338,6 +2528,11 @@
               "path": "seedvr2_ema_3b-Q3_K_M.gguf",
               "sha256": null,
               "size_bytes": 1553006944,
+              "memory_estimate": {
+                "runtime_ram_bytes": 1553006944,
+                "confidence": "estimated",
+                "source": "gguf_size"
+              },
               "target_category": "SEEDVR2",
               "license_url": null,
               "direct_url": "https://huggingface.co/cmeka/SeedVR2-GGUF/resolve/main/seedvr2_ema_3b-Q3_K_M.gguf"
