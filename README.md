@@ -5,66 +5,70 @@
 <h1 align="center">Arctic ComfyUI Helper</h1>
 
 <p align="center">
-  For users who want to install and manage ComfyUI with add-ons and custom nodes easily on Windows and Linux, then download the right models and LoRAs without guesswork.
+  A Windows and Linux companion for installing and managing ComfyUI, choosing hardware-appropriate setups, and downloading the right models and LoRAs without guesswork.
 </p>
 
 <p align="center">
-  <a href="#"><img alt="NVIDIA CUDA" src="https://img.shields.io/badge/NVIDIA-CUDA-76B900?logo=nvidia&logoColor=white" /></a>
-  <a href="#"><img alt="AMD ROCm" src="https://img.shields.io/badge/AMD-ROCm-CB2E6D?logo=amd&logoColor=white" /></a>
-  <a href="#"><img alt="Intel XPU" src="https://img.shields.io/badge/Intel-XPU-0071C5?logo=intel&logoColor=white" /></a>
+  <img alt="Windows" src="https://custom-icon-badges.demolab.com/badge/Windows%2010%2F11-0078D6?logo=windows11&logoColor=white" />
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-x86__64-FCC624?logo=linux&logoColor=black" />
+  <img alt="NixOS" src="https://img.shields.io/badge/NixOS-5277C3?logo=nixos&logoColor=white" />
+  <img alt="Flatpak" src="https://img.shields.io/badge/Flatpak-4A90D9?logo=flatpak&logoColor=white" />
 </p>
 
 <p align="center">
-  <a href="#"><img alt="Windows" src="https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white" /></a>
-  <a href="#"><img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white" /></a>
-  <a href="#"><img alt="Debian" src="https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff" /></a>
-  <a href="#"><img alt="Linux Mint" src="https://img.shields.io/badge/Linux%20Mint-87CF3E?logo=linuxmint&logoColor=fff" /></a>
-  <a href="#"><img alt="Fedora" src="https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff" /></a>
-  <a href="#"><img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff" /></a>
-  <a href="#"><img alt="Flatpak" src="https://img.shields.io/badge/Flatpak-4A90D9?logo=flatpak&logoColor=fff" /></a>
-</p>
-
-<p align="center">
-  <a href="#"><img alt="Built With" src="https://img.shields.io/badge/Built%20With-232323" /></a>
-  <a href="#"><img alt="Rust" src="https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=white" /></a>
-  <a href="#"><img alt="Tauri" src="https://img.shields.io/badge/Tauri-24C8D8?logo=tauri&logoColor=fff" /></a>
+  <img alt="NVIDIA CUDA" src="https://img.shields.io/badge/NVIDIA-CUDA-76B900?logo=nvidia&logoColor=white" />
+  <img alt="AMD ROCm" src="https://img.shields.io/badge/AMD-ROCm-CB2E6D?logo=amd&logoColor=white" />
+  <img alt="Intel XPU" src="https://img.shields.io/badge/Intel-XPU-0071C5?logo=intel&logoColor=white" />
+  <img alt="Rust" src="https://img.shields.io/badge/Built%20with-Rust-000000?logo=rust&logoColor=white" />
+  <img alt="Tauri" src="https://img.shields.io/badge/Desktop-Tauri-24C8DB?logo=tauri&logoColor=white" />
 </p>
 
 ---
 
 ## 📚 Overview
 
-Think of it as:
-- A built-in **ComfyUI installer** for desktop workflows
-- A curated model and LoRA catalog matched to your hardware tiers
-- A one-click downloader that places assets into the correct ComfyUI folders
+Arctic ComfyUI Helper mirrors the builds used in Arctic Latent tutorials, reducing setup friction and helping you choose assets that fit your hardware.
+
+It includes:
+
+- A built-in **ComfyUI installer and manager**
+- A curated model and LoRA catalog matched to hardware tiers
+- One-click downloads into the correct ComfyUI folders
+- Hardware-aware Torch and accelerator recommendations
+- Runtime controls, logs, and system-tray integration
 
 ---
 
-### New in Latest Version
+## ✨ New in v0.2.6
 
-- **Models tab reworked** with multi-select downloads, search, and a queued selection flow
-- **Model destination feedback is clearer**, especially when using a shared models folder
-- **Custom ComfyUI startup options** can now be added, saved, and cleared in-app
-- **Live runtime console added** with filtering and easier-to-scan output when ComfyUI is launched from Arctic Helper
-- **UI and update reliability improved** with cleaner dropdowns, better model list layout, and a fix for Windows managed-install tag updates
+- Added a public binary Nix flake for NixOS and other `x86_64-linux` Nix systems
+- Added GPU selection on multi-adapter systems, with compatible NVIDIA CUDA, AMD ROCm, and Intel XPU profiles
+- Unified Windows and Linux development for more consistent cross-platform behavior
+- Updated Linux AMD profiles for ROCm 7.2
+- Improved NVIDIA detection on mixed-GPU and headless Linux systems
+- Made ComfyUI update checks asynchronous so slow Git operations do not freeze startup
+- Improved Windows runtime-output handling for non-UTF-8 output and disabled in-app logs
+- Added signed release manifests and stricter release verification
+- Added native Arch Linux packages to GitHub Releases; AUR publishing has been removed
 
 ---
 
 ## 🧩 Core Features
 
-- 🛠️ **ComfyUI install module** with uv-managed Python plus selectable add-ons and custom nodes
-- 🧠 **Automatic GPU-aware install profiles** for NVIDIA CUDA and supported AMD ROCm setups
-- 🧭 **Guided AMD/ROCm onboarding** with distro-aware Linux setup help, readiness checks, and clearer setup feedback
-- 🚩 **Flexible launch controls** with a dedicated Flags section for runtime options like `--listen`, SageAttention, and FlashAttention
-- 🧠 **Tier-aware catalog** that filters by your GPU VRAM and system RAM
-- 📦 **Auto-dependency downloads** for text encoders, CLIPs, upscalers, and other required files
+- 🛠️ **ComfyUI installation and management** with uv-managed Python, selectable add-ons, and custom nodes
+- 🧠 **GPU-aware install profiles** for NVIDIA CUDA and supported AMD ROCm and Intel XPU configurations
+- 🎛️ **Multi-GPU selection** with Torch choices filtered for the selected adapter
+- 🧭 **Guided AMD/ROCm onboarding** with distro-aware Linux help and readiness checks
+- 🚩 **Flexible launch controls** for options such as `--listen`, SageAttention, and FlashAttention
+- 🧠 **Tier-aware catalog** filtered by GPU VRAM and system RAM
+- 📦 **Automatic dependency downloads** for text encoders, CLIPs, upscalers, and other required files
 - 🗂️ **Smart file placement** into the correct ComfyUI subfolders
-- 📈 **Live download progress** with active and completed transfer tracking
+- 📈 **Live and queued download progress** with multi-select model downloads
 - 🔐 **Optional Civitai token support** for authenticated LoRA downloads
-- 🖼️ **LoRA preview and metadata** in-app, including description, triggers, and creator link
-- ♻️ **Auto-update support** through the GitHub Releases manifest
-- 🧵 **System tray controls** to start or stop ComfyUI even when the main window is hidden
+- 🖼️ **LoRA previews and metadata**, including descriptions, triggers, and creator links
+- 🖥️ **Live runtime console** with filtering for ComfyUI processes launched by Arctic Helper
+- ♻️ **Verified updates** using signed GitHub release manifests and SHA-256 checksums
+- 🧵 **System tray controls** for starting and stopping ComfyUI while the main window is hidden
 
 ---
 
@@ -74,10 +78,12 @@ Inside the **ComfyUI** tab, you can:
 
 - Select a base folder and install a fresh ComfyUI instance
 - Manage an existing ComfyUI installation
-- Use automatic Torch and accelerator recommendations based on detected NVIDIA or supported AMD GPU hardware
-- Override the Torch stack manually from a dropdown
-- Configure launch-time flags like `--listen`, SageAttention, and FlashAttention separately from install-time add-ons
-- Toggle add-ons and custom nodes from the UI
+- Use automatic Torch and accelerator recommendations based on detected hardware
+- Select a GPU explicitly on systems with multiple adapters
+- Override the Torch stack manually
+- Save custom startup arguments
+- Configure launch-time flags separately from install-time add-ons
+- Toggle supported add-ons and custom nodes from the UI
 
 ### Available Add-Ons
 
@@ -99,33 +105,86 @@ Inside the **ComfyUI** tab, you can:
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Installation
 
-1. Download the latest package from this repo's **Releases** page:
-   - Windows: `.exe`
-   - Ubuntu / Debian / Linux Mint: `.deb`
-   - Fedora: `.rpm`
-   - Arch Linux: install from AUR: [`arctic-comfyui-helper-bin`](https://aur.archlinux.org/packages/arctic-comfyui-helper-bin)
-   - Flatpak: `.flatpak`
-2. Install it based on your distribution:
-   - Windows:
-     - No installation needed. Run the `.exe` directly.
-   - Ubuntu / Debian / Linux Mint:
-     - `sudo apt install ./arctic-comfyui-helper_*.deb`
-   - Fedora:
-     - `sudo dnf install ./arctic-comfyui-helper-*.rpm`
-   - Arch Linux:
-     - `yay -S arctic-comfyui-helper-bin`
-     - Or with paru: `paru -S arctic-comfyui-helper-bin`
-   - Flatpak:
-      - `flatpak install --user ./arctic-comfyui-helper-*-x86_64.flatpak`
-3. Run the app. It is a standalone desktop app.
-4. In the **ComfyUI** tab, use **Install New** or **Manage Existing** if you want the app to install or manage ComfyUI itself.
-5. In **Models** or **LoRAs**, select your existing ComfyUI folder to download assets.
-6. Optional advanced logging: launch from terminal with `--nerdstats`
-   Examples: `.\Arctic-ComfyUI-Helper.exe --nerdstats` on Windows, `./Arctic-ComfyUI-Helper --nerdstats` on Linux
+Download the latest package from [GitHub Releases](https://github.com/ArcticLatent/Arctic-Helper/releases/latest).
 
-That is it. Pick your setup, click, and the app handles the rest.
+Only `x86_64` Linux packages are currently provided.
+
+### Windows 10/11
+
+Download `Arctic-ComfyUI-Helper.exe` and run it directly. The current Windows release is a standalone executable and does not require an installer.
+
+Optional terminal logging:
+
+```powershell
+.\Arctic-ComfyUI-Helper.exe --nerdstats
+```
+
+### Ubuntu, Debian, and Linux Mint
+
+```bash
+sudo apt install ./arctic-comfyui-helper_*_amd64.deb
+```
+
+### Fedora
+
+```bash
+sudo dnf install ./arctic-comfyui-helper-*.x86_64.rpm
+```
+
+### Arch Linux
+
+Download the native `.pkg.tar.zst` asset from the release and install it with:
+
+```bash
+sudo pacman -U ./arctic-comfyui-helper-*-x86_64.pkg.tar.zst
+```
+
+An AUR package is no longer published or maintained. Use the native Arch package attached to each GitHub release.
+
+### Flatpak
+
+```bash
+flatpak install --user ./arctic-comfyui-helper-*-x86_64.flatpak
+flatpak run io.github.ArcticHelper
+```
+
+### NixOS / Nix
+
+Run without installing:
+
+```bash
+nix run 'tarball+https://github.com/ArcticLatent/Arctic-Helper/releases/latest/download/arctic-comfyui-helper-nix-x86_64.tar.gz'
+```
+
+Install into your user profile:
+
+```bash
+nix profile add 'tarball+https://github.com/ArcticLatent/Arctic-Helper/releases/latest/download/arctic-comfyui-helper-nix-x86_64.tar.gz'
+```
+
+Launch it with:
+
+```bash
+arctic-comfyui-helper
+```
+
+Update the profile installation with:
+
+```bash
+nix profile upgrade --refresh arctic-comfyui-helper
+```
+
+For a declarative NixOS configuration, use the same tarball URL as a flake input and add `inputs.arctic-helper.packages.${pkgs.system}.default` to `environment.systemPackages`.
+
+The in-app updater is disabled for Nix installations because the Nix store is immutable. Update through Nix instead.
+
+### After Installation
+
+1. Open the **ComfyUI** tab and choose **Install New** or **Manage Existing**.
+2. In **Models** or **LoRAs**, select your ComfyUI folder before downloading assets.
+3. Configure optional launch flags, add-ons, custom nodes, and your Civitai token as needed.
 
 ---
 
@@ -135,56 +194,55 @@ That is it. Pick your setup, click, and the app handles the rest.
 
 ---
 
-## 🔄 Auto-Updates
+## 🔄 Updates and Release Verification
 
-On startup, the app checks the latest update manifest from this repository's GitHub Releases.
+On supported installations, Arctic ComfyUI Helper checks the release manifests published in this repository.
 
-If a newer version is found, the app downloads it, verifies the checksum, replaces the binary, and restarts.
+- Windows uses `update.json`.
+- Linux packages use `linux-release.json` to select the matching Debian, Fedora, or Arch artifact.
+- Release manifests are authenticated with Ed25519 signatures.
+- Downloaded application files are verified against SHA-256 checksums before installation.
+- Missing or invalid signatures and checksum mismatches are rejected.
+- Nix installations are updated through `nix profile`, not by modifying the Nix store.
 
 ---
 
 ## ✅ Requirements
 
-- Latest NVIDIA or AMD drivers installed
-- Internet connection for the catalog, model files, and optional installer tasks
-- For some Civitai LoRAs, a valid Civitai API token
+- Windows 10/11 or a supported `x86_64` Linux distribution
+- Current drivers for your NVIDIA, AMD, or Intel GPU setup
+- An internet connection for the catalog, model downloads, and installer tasks
+- Sufficient disk space for ComfyUI, Python environments, models, and LoRAs
+- A Civitai API token for assets that require authentication
 
 ---
 
 ## 💡 Usage Tips
 
-- If a LoRA says unauthorized, add your Civitai token in-app and save it
-- If you run multiple ComfyUI installs, use the ComfyUI tab's install or manage mode and detected installs list
+- If a LoRA reports an authorization error, add your Civitai token in the app and save it.
+- If you use multiple ComfyUI installations, select the intended installation before downloading assets.
+- Use the runtime console to inspect a ComfyUI process launched by Arctic Helper.
+- Launch `arctic-comfyui-helper --nerdstats` on Linux or use the Windows command above for advanced diagnostic output.
 
 ---
 
 ## 🆘 Need Help?
 
-Open `Issues` -> `New issue`, then choose:
-- **Cross-Platform Bug Report** for problems and errors
-- **Feature Request** for ideas and improvements
+Open an [issue](https://github.com/ArcticLatent/Arctic-Helper/issues/new) and include:
 
-Include:
-- Platform and version, including Windows or Linux distro and version
-- Package type used: `.exe`, `.deb`, `.rpm`, or AUR package `arctic-comfyui-helper-bin`
+- Operating system and version
+- Package type: `.exe`, `.deb`, `.rpm`, `.pkg.tar.zst`, `.flatpak`, or Nix
 - What you clicked
 - What you expected
 - What happened
-- Any log lines shown in the app
-- If possible, run with `--nerdstats` and include the exact terminal logs
+- Relevant in-app log lines
+- Exact terminal output from `--nerdstats`, when possible
 
 ---
 
 ## 🙏 Special Thanks
 
-Thanks to [visualbruno](https://github.com/visualbruno) for the Trellis2 wrapper:
-https://github.com/visualbruno/ComfyUI-Trellis2
-
----
-
-## 🛡️ VirusTotal
-
-https://www.virustotal.com/gui/file/df11eb549dde404ddb6e0a73a5c9d61b1d1eecd11034dd9baa6d8b724b4e1121/detection
+Thanks to [visualbruno](https://github.com/visualbruno) for the [Trellis2 wrapper](https://github.com/visualbruno/ComfyUI-Trellis2).
 
 ---
 
@@ -205,10 +263,10 @@ Burce Boran 🎥 Asset Supervisor / VFX Artist | 🐧 Arctic Latent
 
 ---
 
-## Open Source
+## License
 
-This project is open source.
+Copyright (c) 2026 Arctic Helper. All Rights Reserved.
 
-Development repositories:
-- Linux: https://github.com/ArcticLatent/ArcticDownloader-lin
-- Windows: https://github.com/ArcticLatent/ArcticDownloader-win
+This software is proprietary and closed-source. You may download and use it for personal use only. Redistribution, modification, reverse engineering, or commercial use of this software or any included assets is prohibited without written permission from the copyright holder.
+
+The software is provided “as is” without warranty of any kind.
