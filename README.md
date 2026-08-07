@@ -269,8 +269,8 @@ Burce Boran 🎥 Asset Supervisor / VFX Artist | 🐧 Arctic Latent
 
 ## License
 
-Copyright (c) 2026 Arctic Helper. All Rights Reserved.
+Copyright 2026 Arctic Latent.
 
-This software is proprietary and closed-source. You may download and use it for personal use only. Redistribution, modification, reverse engineering, or commercial use of this software or any included assets is prohibited without written permission from the copyright holder.
+Arctic ComfyUI Helper is licensed under the [Apache License 2.0](LICENSE). You may use, modify, and redistribute the software under its terms. The complete license text is included with the source and release packages.
 
-The software is provided “as is” without warranty of any kind.
+As provided by Section 6 of the license, Apache-2.0 does not grant permission to use Arctic Helper trade names, trademarks, service marks, or product names except as required for reasonable and customary description of the software's origin.
