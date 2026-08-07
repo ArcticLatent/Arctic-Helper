@@ -10,7 +10,11 @@
 
 <p align="center">
   <img alt="Windows" src="https://custom-icon-badges.demolab.com/badge/Windows%2010%2F11-0078D6?logo=windows11&logoColor=white" />
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-x86__64-FCC624?logo=linux&logoColor=black" />
+  <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white" />
+  <img alt="Debian" src="https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=white" />
+  <img alt="Linux Mint" src="https://img.shields.io/badge/Linux%20Mint-87CF3E?logo=linuxmint&logoColor=white" />
+  <img alt="Fedora" src="https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=white" />
+  <img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=white" />
   <img alt="NixOS" src="https://img.shields.io/badge/NixOS-5277C3?logo=nixos&logoColor=white" />
   <img alt="Flatpak" src="https://img.shields.io/badge/Flatpak-4A90D9?logo=flatpak&logoColor=white" />
 </p>
