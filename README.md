@@ -43,17 +43,13 @@ It includes:
 
 ---
 
-## ✨ New in v0.2.6
+## ✨ New in v0.2.8
 
-- Added a public binary Nix flake for NixOS and other `x86_64-linux` Nix systems
-- Added GPU selection on multi-adapter systems, with compatible NVIDIA CUDA, AMD ROCm, and Intel XPU profiles
-- Unified Windows and Linux development for more consistent cross-platform behavior
-- Updated Linux AMD profiles for ROCm 7.2
-- Improved NVIDIA detection on mixed-GPU and headless Linux systems
-- Made ComfyUI update checks asynchronous so slow Git operations do not freeze startup
-- Improved Windows runtime-output handling for non-UTF-8 output and disabled in-app logs
-- Added signed release manifests and stricter release verification
-- Added native Arch Linux packages to GitHub Releases; AUR publishing has been removed
+- Nix-managed installations now detect newer versions through the signed Linux release manifest
+- Added a **How to Update** action for Nix users without attempting to modify the immutable Nix store
+- Added Nix profile and declarative-configuration update guidance in the application log
+- Kept automatic installation unchanged for Debian, Ubuntu, Fedora, and Arch packages
+- Fixed TLS certificate verification for ComfyUI, ComfyUI Manager, custom nodes, and managed Python processes on NixOS
 
 ---
 
@@ -182,7 +178,7 @@ nix profile upgrade --refresh arctic-comfyui-helper
 
 For a declarative NixOS configuration, use the same tarball URL as a flake input and add `inputs.arctic-helper.packages.${pkgs.system}.default` to `environment.systemPackages`.
 
-The in-app updater is disabled for Nix installations because the Nix store is immutable. Update through Nix instead.
+Nix installations check the signed release manifest and display the latest available version in the app. The **How to Update** action opens the latest release page and records Nix guidance in the application log. Installation remains delegated to Nix because applications cannot modify binaries in the immutable Nix store.
 
 ### After Installation
 
@@ -204,10 +200,11 @@ On supported installations, Arctic ComfyUI Helper checks the release manifests p
 
 - Windows uses `update.json`.
 - Linux packages use `linux-release.json` to select the matching Debian, Fedora, or Arch artifact.
+- Nix installations use the same signed Linux manifest to detect newer versions without downloading or installing them automatically.
 - Release manifests are authenticated with Ed25519 signatures.
 - Downloaded application files are verified against SHA-256 checksums before installation.
 - Missing or invalid signatures and checksum mismatches are rejected.
-- Nix installations are updated through `nix profile`, not by modifying the Nix store.
+- Nix profile installations are updated with `nix profile upgrade --refresh arctic-comfyui-helper`; declarative installations are updated through their flake configuration and normal system rebuild.
 
 ---
 
