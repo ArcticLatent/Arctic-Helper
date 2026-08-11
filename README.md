@@ -129,8 +129,17 @@ sudo apt install ./arctic-comfyui-helper_*_amd64.deb
 
 ### Fedora
 
+Install the RPM downloaded from GitHub Releases:
+
 ```bash
 sudo dnf install ./arctic-comfyui-helper-*.x86_64.rpm
+```
+
+Alternatively, install from the [Arctic Helper COPR repository](https://copr.fedorainfracloud.org/coprs/burcebor/arctic-helper/) to receive updates through DNF:
+
+```bash
+sudo dnf copr enable burcebor/arctic-helper
+sudo dnf install arctic-comfyui-helper
 ```
 
 ### Arch Linux
