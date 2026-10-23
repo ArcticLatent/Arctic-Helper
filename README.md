@@ -1,282 +1,37 @@
 <p align="center">
-  <img src="assets/icon.svg" alt="Arctic ComfyUI Helper" width="148" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/comfypilot-logo-dark.svg" />
+    <img src="assets/comfypilot-logo-light.svg" alt="ComfyPilot" width="420" />
+  </picture>
 </p>
 
-<h1 align="center">Arctic ComfyUI Helper</h1>
+<h1 align="center">Arctic ComfyUI Helper is now ComfyPilot</h1>
 
 <p align="center">
-  A Windows and Linux companion for installing and managing ComfyUI, choosing hardware-appropriate setups, and downloading the right models and LoRAs without guesswork.
-</p>
-
-<p align="center">
-  <img alt="Windows" src="https://custom-icon-badges.demolab.com/badge/Windows%2010%2F11-0078D6?logo=windows11&logoColor=white" />
-  <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white" />
-  <img alt="Debian" src="https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=white" />
-  <img alt="Linux Mint" src="https://img.shields.io/badge/Linux%20Mint-87CF3E?logo=linuxmint&logoColor=white" />
-  <img alt="Fedora" src="https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=white" />
-  <img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=white" />
-  <img alt="NixOS" src="https://img.shields.io/badge/NixOS-5277C3?logo=nixos&logoColor=white" />
-  <img alt="Flatpak" src="https://img.shields.io/badge/Flatpak-4A90D9?logo=flatpak&logoColor=white" />
+  <b>This project has moved to <a href="https://github.com/ArcticLatent/ComfyPilot">github.com/ArcticLatent/ComfyPilot</a>.</b>
 </p>
 
 <p align="center">
-  <img alt="NVIDIA CUDA" src="https://img.shields.io/badge/NVIDIA-CUDA-76B900?logo=nvidia&logoColor=white" />
-  <img alt="AMD ROCm" src="https://img.shields.io/badge/AMD-ROCm-CB2E6D?logo=amd&logoColor=white" />
-  <img alt="Intel XPU" src="https://img.shields.io/badge/Intel-XPU-0071C5?logo=intel&logoColor=white" />
-  <img alt="Rust" src="https://img.shields.io/badge/Built%20with-Rust-000000?logo=rust&logoColor=white" />
-  <img alt="Tauri" src="https://img.shields.io/badge/Desktop-Tauri-24C8DB?logo=tauri&logoColor=white" />
+  <a href="https://github.com/ArcticLatent/ComfyPilot"><img alt="Go to ComfyPilot" src="https://img.shields.io/badge/Go%20to-ComfyPilot-BD93F9?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
 ---
 
-## 📚 Overview
-
-Arctic ComfyUI Helper mirrors the builds used in Arctic Latent tutorials, reducing setup friction and helping you choose assets that fit your hardware.
-
-It includes:
-
-- A built-in **ComfyUI installer and manager**
-- A curated model and LoRA catalog matched to hardware tiers
-- One-click downloads into the correct ComfyUI folders
-- Hardware-aware Torch and accelerator recommendations
-- Runtime controls, logs, and system-tray integration
-
----
-
-## ✨ New in v0.2.8
-
-- Nix-managed installations now detect newer versions through the signed Linux release manifest
-- Added a **How to Update** action for Nix users without attempting to modify the immutable Nix store
-- Added Nix profile and declarative-configuration update guidance in the application log
-- Kept automatic installation unchanged for Debian, Ubuntu, Fedora, and Arch packages
-- Fixed TLS certificate verification for ComfyUI, ComfyUI Manager, custom nodes, and managed Python processes on NixOS
-
----
-
-## 🧩 Core Features
-
-- 🛠️ **ComfyUI installation and management** with uv-managed Python, selectable add-ons, and custom nodes
-- 🧠 **GPU-aware install profiles** for NVIDIA CUDA and supported AMD ROCm and Intel XPU configurations
-- 🎛️ **Multi-GPU selection** with Torch choices filtered for the selected adapter
-- 🧭 **Guided AMD/ROCm onboarding** with distro-aware Linux help and readiness checks
-- 🚩 **Flexible launch controls** for options such as `--listen`, SageAttention, and FlashAttention
-- 🧠 **Tier-aware catalog** filtered by GPU VRAM and system RAM
-- 📦 **Automatic dependency downloads** for text encoders, CLIPs, upscalers, and other required files
-- 🗂️ **Smart file placement** into the correct ComfyUI subfolders
-- 📈 **Live and queued download progress** with multi-select model downloads
-- 🔐 **Optional Civitai token support** for authenticated LoRA downloads
-- 🖼️ **LoRA previews and metadata**, including descriptions, triggers, and creator links
-- 🖥️ **Live runtime console** with filtering for ComfyUI processes launched by Arctic Helper
-- ♻️ **Verified updates** using signed GitHub release manifests and SHA-256 checksums
-- 🧵 **System tray controls** for starting and stopping ComfyUI while the main window is hidden
-
----
-
-## 🧰 ComfyUI Installer Highlights
-
-Inside the **ComfyUI** tab, you can:
-
-- Select a base folder and install a fresh ComfyUI instance
-- Manage an existing ComfyUI installation
-- Use automatic Torch and accelerator recommendations based on detected hardware
-- Select a GPU explicitly on systems with multiple adapters
-- Override the Torch stack manually
-- Save custom startup arguments
-- Configure launch-time flags separately from install-time add-ons
-- Toggle supported add-ons and custom nodes from the UI
-
-### Available Add-Ons
-
-- SageAttention
-- SageAttention3 (RTX 50-series only)
-- FlashAttention
-- InsightFace
-- Nunchaku
-- Trellis2 (requires Torch 2.8.0 + cu128 or newer)
-- Pinned Memory (enabled by default)
-
-### Available Custom Nodes
-
-- comfyui-manager
-- ComfyUI-Easy-Use
-- rgthree-comfy
-- ComfyUI-GGUF
-- comfyui-kjnodes
-
----
-
-## 🚀 Installation
-
-Download the latest package from [GitHub Releases](https://github.com/ArcticLatent/Arctic-Helper/releases/latest).
-
-Only `x86_64` Linux packages are currently provided.
-
-### Windows 10/11
-
-Download `Arctic-ComfyUI-Helper.exe` and run it directly. The current Windows release is a standalone executable and does not require an installer.
-
-Optional terminal logging:
-
-```powershell
-.\Arctic-ComfyUI-Helper.exe --nerdstats
-```
-
-### Ubuntu, Debian, and Linux Mint
-
-```bash
-sudo apt install ./arctic-comfyui-helper_*_amd64.deb
-```
-
-### Fedora
-
-Install the RPM downloaded from GitHub Releases:
-
-```bash
-sudo dnf install ./arctic-comfyui-helper-*.x86_64.rpm
-```
-
-Alternatively, install from the [Arctic Helper COPR repository](https://copr.fedorainfracloud.org/coprs/burcebor/arctic-helper/) to receive updates through DNF:
-
-```bash
-sudo dnf copr enable burcebor/arctic-helper
-sudo dnf install arctic-comfyui-helper
-```
-
-### Arch Linux
-
-Download the native `.pkg.tar.zst` asset from the release and install it with:
-
-```bash
-sudo pacman -U ./arctic-comfyui-helper-*-x86_64.pkg.tar.zst
-```
-
-An AUR package is no longer published or maintained. Use the native Arch package attached to each GitHub release.
-
-### Flatpak
-
-```bash
-flatpak install --user ./arctic-comfyui-helper-*-x86_64.flatpak
-flatpak run io.github.ArcticHelper
-```
-
-### NixOS / Nix
-
-Run without installing:
-
-```bash
-nix run 'tarball+https://github.com/ArcticLatent/Arctic-Helper/releases/latest/download/arctic-comfyui-helper-nix-x86_64.tar.gz'
-```
-
-Install into your user profile:
-
-```bash
-nix profile add 'tarball+https://github.com/ArcticLatent/Arctic-Helper/releases/latest/download/arctic-comfyui-helper-nix-x86_64.tar.gz'
-```
-
-Launch it with:
-
-```bash
-arctic-comfyui-helper
-```
-
-Update the profile installation with:
-
-```bash
-nix profile upgrade --refresh arctic-comfyui-helper
-```
-
-For a declarative NixOS configuration, use the same tarball URL as a flake input and add `inputs.arctic-helper.packages.${pkgs.system}.default` to `environment.systemPackages`.
-
-Nix installations check the signed release manifest and display the latest available version in the app. The **How to Update** action opens the latest release page and records Nix guidance in the application log. Installation remains delegated to Nix because applications cannot modify binaries in the immutable Nix store.
-
-### After Installation
-
-1. Open the **ComfyUI** tab and choose **Install New** or **Manage Existing**.
-2. In **Models** or **LoRAs**, select your ComfyUI folder before downloading assets.
-3. Configure optional launch flags, add-ons, custom nodes, and your Civitai token as needed.
-
----
-
-## 🖼️ Demo Preview
-
-![Arctic Downloader Demo](assets/demo.png)
-
----
-
-## 🔄 Updates and Release Verification
-
-On supported installations, Arctic ComfyUI Helper checks the release manifests published in this repository.
-
-- Windows uses `update.json`.
-- Linux packages use `linux-release.json` to select the matching Debian, Fedora, or Arch artifact.
-- Nix installations use the same signed Linux manifest to detect newer versions without downloading or installing them automatically.
-- Release manifests are authenticated with Ed25519 signatures.
-- Downloaded application files are verified against SHA-256 checksums before installation.
-- Missing or invalid signatures and checksum mismatches are rejected.
-- Nix profile installations are updated with `nix profile upgrade --refresh arctic-comfyui-helper`; declarative installations are updated through their flake configuration and normal system rebuild.
-
----
-
-## ✅ Requirements
-
-- Windows 10/11 or a supported `x86_64` Linux distribution
-- Current drivers for your NVIDIA, AMD, or Intel GPU setup
-- An internet connection for the catalog, model downloads, and installer tasks
-- Sufficient disk space for ComfyUI, Python environments, models, and LoRAs
-- A Civitai API token for assets that require authentication
-
----
-
-## 💡 Usage Tips
-
-- If a LoRA reports an authorization error, add your Civitai token in the app and save it.
-- If you use multiple ComfyUI installations, select the intended installation before downloading assets.
-- Use the runtime console to inspect a ComfyUI process launched by Arctic Helper.
-- Launch `arctic-comfyui-helper --nerdstats` on Linux or use the Windows command above for advanced diagnostic output.
-
----
-
-## 🆘 Need Help?
-
-Open an [issue](https://github.com/ArcticLatent/Arctic-Helper/issues/new) and include:
-
-- Operating system and version
-- Package type: `.exe`, `.deb`, `.rpm`, `.pkg.tar.zst`, `.flatpak`, or Nix
-- What you clicked
-- What you expected
-- What happened
-- Relevant in-app log lines
-- Exact terminal output from `--nerdstats`, when possible
-
----
-
-## 🙏 Special Thanks
-
-Thanks to [visualbruno](https://github.com/visualbruno) for the [Trellis2 wrapper](https://github.com/visualbruno/ComfyUI-Trellis2).
-
----
-
-## 🧊 Author
-
-Burce Boran 🎥 Asset Supervisor / VFX Artist | 🐧 Arctic Latent
-
-[![YouTube - Arctic Latent](https://img.shields.io/badge/YouTube-%40ArcticLatent-FF0000?logo=youtube&logoColor=white)](https://youtube.com/@ArcticLatent)
-[![Patreon - Arctic Latent](https://img.shields.io/badge/Patreon-Arctic%20Latent-FF424D?logo=patreon&logoColor=white)](https://patreon.com/ArcticLatent)
-[![Hugging Face - Arctic Latent](https://img.shields.io/badge/HuggingFace-Arctic%20Latent-FFD21E?logo=huggingface&logoColor=white)](https://huggingface.co/arcticlatent)
-[![Vimeo - Demo Reel](https://img.shields.io/badge/Vimeo-Demo%20Reel-1ab7ea?logo=vimeo&logoColor=white)](https://vimeo.com/1044521891)
-
----
-
-## Support Project
-
-[![Buy Me a Coffee - Arctic Latent](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Arctic%20Latent-FFDD00?logo=buymeacoffee&logoColor=000)](https://buymeacoffee.com/arcticlatent)
-
----
-
-## License
-
-Copyright 2026 Arctic Latent.
-
-Arctic ComfyUI Helper is licensed under the [Apache License 2.0](LICENSE). You may use, modify, and redistribute the software under its terms. The complete license text is included with the source and release packages.
-
-As provided by Section 6 of the license, Apache-2.0 does not grant permission to use Arctic Helper trade names, trademarks, service marks, or product names except as required for reasonable and customary description of the software's origin.
+Arctic ComfyUI Helper has a new name and a new home. **ComfyPilot** is the same app, rebuilt
+with a native Qt interface: it installs and runs ComfyUI, picks the right PyTorch stack for
+your GPU, downloads models, browses LoRAs and workflows on Civitai, and checks what a workflow
+needs.
+
+## What this means for you
+
+- **New downloads, updates and issues** are on the
+  [ComfyPilot repository](https://github.com/ArcticLatent/ComfyPilot). This repository will not
+  get new releases.
+- **Your setup carries over.** When you install ComfyPilot, it picks up your settings, saved
+  tokens and list of ComfyUI installs from Arctic ComfyUI Helper (from the .deb, .rpm, Arch and
+  Windows versions). Your ComfyUI installs keep working as they are.
+- **Old releases stay available** on this repository's
+  [Releases page](https://github.com/ArcticLatent/Arctic-Helper/releases) for reference.
+
+Thanks for using Arctic ComfyUI Helper, and see you on
+[ComfyPilot](https://github.com/ArcticLatent/ComfyPilot)!
